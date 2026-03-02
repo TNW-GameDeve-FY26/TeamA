@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 254,
+    "build": 259,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -107,6 +107,14 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "collision_wall_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "yucky foog.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yucky foog.png",
         "smoothed": true,
         "userAdded": false
       }

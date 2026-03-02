@@ -1,0 +1,35 @@
+{
+  "associatedLayout": "main_scene",
+  "name": "collisions",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_obj",
+            "collision_wall_obj",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player_obj",
+            "collision_wall_obj",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

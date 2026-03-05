@@ -1,0 +1,11 @@
+{
+  "associatedLayout": "puzzles",
+  "name": "puzzles",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

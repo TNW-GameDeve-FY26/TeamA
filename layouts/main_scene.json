@@ -26,94 +26,14 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
-  "instances": [
+  "variables": [
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "collision_wall_obj",
-      "persistentUuid": "72dd8faf-f8db-41fa-bbe3-7376f9304f94",
-      "width": 1921,
-      "x": -1,
-      "y": -63,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1081,
-      "keepRatio": true,
-      "layer": "",
-      "name": "collision_wall_obj",
-      "persistentUuid": "85d3a046-d59a-4383-9b2c-c9cc7934231a",
-      "width": 64,
-      "x": 1919,
-      "y": -1,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "collision_wall_obj",
-      "persistentUuid": "6a5fb6aa-632e-4e07-b723-023bcf22ead8",
-      "width": 1922,
-      "x": -2,
-      "y": 1081,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "",
-      "name": "collision_wall_obj",
-      "persistentUuid": "1d4997fb-0996-4f5f-8d67-e5b3d19d1b61",
-      "width": 64,
-      "x": -65,
-      "y": -8,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 396,
-      "keepRatio": true,
-      "layer": "",
-      "name": "foog",
-      "persistentUuid": "14455dec-2074-4a4d-90a1-953ac9bb7e4d",
-      "width": 1120,
-      "x": 429,
-      "y": 473,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
+      "name": "movement_speed",
+      "type": "number",
+      "value": 0
     }
   ],
+  "instances": [],
   "objects": [
     {
       "assetStoreId": "",
@@ -283,7 +203,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "foog",
+      "name": "puzzle_block_obj",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -291,16 +211,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "puzzle_block_obj",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "yucky foog.png",
+                  "image": "puzzle_block_obj",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -316,20 +237,81 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 174
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 500,
-                        "y": 174
+                        "x": 64,
+                        "y": 0
                       },
                       {
-                        "x": 500,
-                        "y": 500
+                        "x": 64,
+                        "y": 64
                       },
                       {
-                        "x": 18,
-                        "y": 500
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "forest_obj",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "forest_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "forest_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
                       }
                     ]
                   ]
@@ -354,7 +336,10 @@
         "objectName": "collision_wall_obj"
       },
       {
-        "objectName": "foog"
+        "objectName": "puzzle_block_obj"
+      },
+      {
+        "objectName": "forest_obj"
       }
     ]
   },
@@ -377,6 +362,13 @@
         "includeConfig": 0
       },
       "target": "collisions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "camera"
     }
   ],
   "layers": [

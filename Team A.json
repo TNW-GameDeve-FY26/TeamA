@@ -117,6 +117,30 @@
         "name": "yucky foog.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/puzzle_block_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "puzzle_block_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/forest_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "forest_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -125,11 +149,26 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "player_position_x",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "name": "player_position_y",
+      "type": "number",
+      "value": 800
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main_scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/puzzles"
     }
   ],
   "externalEvents": [
@@ -140,6 +179,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/collisions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/camera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/puzzles"
     }
   ],
   "eventsFunctionsExtensions": [],

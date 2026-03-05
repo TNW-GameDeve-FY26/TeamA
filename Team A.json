@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 259,
+    "build": 260,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -125,6 +125,30 @@
         "name": "forest_obj",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/maze_player_sprint.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "maze_player_sprint",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/maze_wall_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "maze_wall_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/won_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "won_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -143,6 +167,11 @@
       "name": "player_position_y",
       "type": "number",
       "value": 800
+    },
+    {
+      "name": "maze_complete",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -171,6 +200,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/puzzles"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/puzzle_completion"
     }
   ],
   "eventsFunctionsExtensions": [],

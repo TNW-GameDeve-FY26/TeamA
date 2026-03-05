@@ -20,19 +20,788 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.6197916666666751,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
-  "instances": [],
-  "objects": [],
+  "variables": [
+    {
+      "name": "Variable",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_player_sprint",
+      "persistentUuid": "a92e6ce5-da77-4047-9e87-28e9efe7f767",
+      "width": 0,
+      "x": 65,
+      "y": 65,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 269,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "043b5aa2-562d-4748-a81d-2292f86ee65e",
+      "width": 64,
+      "x": 464,
+      "y": 129,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "dc5fa57e-b29b-4b8c-9fed-12ea98de2f58",
+      "width": 400,
+      "x": 64,
+      "y": 129,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "21efbca2-ede7-4f73-b040-f783d1e5f923",
+      "width": 1944,
+      "x": -9,
+      "y": -12,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1022,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "86847c97-0238-4c8f-8d93-df6bbf3ebc80",
+      "width": 79,
+      "x": 1856,
+      "y": 64,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "4eaf25b5-75f4-4ec1-9ace-97fb4d137db1",
+      "width": 1865,
+      "x": -8,
+      "y": 1015,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 952,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "89a9a6e8-f54c-43a8-bb1b-edf067a496e6",
+      "width": 73,
+      "x": -8,
+      "y": 65,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "c1a837d0-43e1-4d93-b91a-217ca52680e5",
+      "width": 336,
+      "x": 128,
+      "y": 334,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "e612f616-1977-4a68-9218-37461d1e1269",
+      "width": 1200,
+      "x": 592,
+      "y": 129,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 438,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "251bbeb3-5311-4816-886b-541f6ea9822a",
+      "width": 64,
+      "x": 1728,
+      "y": 192,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "72342024-5b89-464f-b90e-2e19022b105b",
+      "width": 1072,
+      "x": 592,
+      "y": 257,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "62d6dd54-a5e0-4bbe-ad93-f574af4524f5",
+      "width": 64,
+      "x": 1600,
+      "y": 311,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 637,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "869baf99-50c5-4a4a-93e2-277adda2b943",
+      "width": 64,
+      "x": 592,
+      "y": 309,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "a289ed8f-2cc1-418c-9e12-54295855ebc1",
+      "width": 192,
+      "x": 1600,
+      "y": 630,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 148,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "81bed790-8976-4df7-9dec-0afc37b8a144",
+      "width": 64,
+      "x": 1600,
+      "y": 693,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 65,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "9885bcbf-9c8c-4ab0-a44b-177ef8d238bc",
+      "width": 64,
+      "x": 1728,
+      "y": 693,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "48bb9160-446a-474e-91f3-630aa2a85f1b",
+      "width": 192,
+      "x": 1600,
+      "y": 825,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "ff2505f6-fcc5-4f40-bde7-08f5b1ca6a92",
+      "width": 473,
+      "x": 1321,
+      "y": 953,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 513,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "d73cb517-e5a3-4529-bcfe-f0483f4e5688",
+      "width": 64,
+      "x": 1456,
+      "y": 376,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "7a7a8017-f234-46f2-a3c2-6c7a08e43a44",
+      "width": 725,
+      "x": 732,
+      "y": 825,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "75446861-4aa7-4a55-81c7-8b0be685a7ef",
+      "width": 529,
+      "x": 63,
+      "y": 462,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "c645f228-26d1-4df0-b93e-d0cdb1186a85",
+      "width": 745,
+      "x": 716,
+      "y": 376,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "6f312e13-76a9-4f77-bc35-b98a9bf95cce",
+      "width": 64,
+      "x": 716,
+      "y": 435,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "348869b0-0d3d-4e6f-8c4a-ea18915cf4f4",
+      "width": 676,
+      "x": 716,
+      "y": 505,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 127,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "de9ac9b0-acb0-4348-bd18-49908d7bf622",
+      "width": 64,
+      "x": 1262,
+      "y": 634,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "e90c26c4-a6ca-4f5e-862b-76cbf06d044e",
+      "width": 466,
+      "x": 796,
+      "y": 697,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 207,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "b9b3662d-bbf6-44ac-8900-8a2036089bc8",
+      "width": 64,
+      "x": 732,
+      "y": 633,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "6b5518a4-66b9-498d-bce2-6c3cd3093356",
+      "width": 64,
+      "x": 796,
+      "y": 633,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "e6bbfbbb-da88-4f17-8d5a-c9a07925413f",
+      "width": 466,
+      "x": 127,
+      "y": 882,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 295,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "83822919-07e6-4fd7-9e99-8a338294b912",
+      "width": 64,
+      "x": 127,
+      "y": 590,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "7f2a401d-07ce-4cb9-a24b-4172eb3ecf96",
+      "width": 336,
+      "x": 190,
+      "y": 640,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "bbef08d5-d021-4c90-9b35-92dd6f08b75c",
+      "width": 341,
+      "x": 188,
+      "y": 774,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "win_obj",
+      "persistentUuid": "72f72f94-bc18-4ea0-8d0d-b3876f5b45a8",
+      "width": 0,
+      "x": 796,
+      "y": 761,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "maze_player_sprint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "maze_player_sprint",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "maze_player_sprint",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "maze_wall_obj",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "maze_wall_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "maze_wall_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "win_obj",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "won_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "won_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "maze_player_sprint"
+      },
+      {
+        "objectName": "maze_wall_obj"
+      },
+      {
+        "objectName": "win_obj"
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "puzzles"
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -100,5 +869,30 @@
       ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
 }

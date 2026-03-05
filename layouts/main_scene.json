@@ -369,6 +369,13 @@
         "includeConfig": 0
       },
       "target": "camera"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "puzzle_completion"
     }
   ],
   "layers": [

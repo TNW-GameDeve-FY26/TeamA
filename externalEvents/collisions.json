@@ -126,17 +126,25 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"e\""
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"puzzles\"",
-            ""
+            "\"puzzles\""
           ]
         }
       ]

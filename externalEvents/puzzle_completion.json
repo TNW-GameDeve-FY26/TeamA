@@ -1,0 +1,32 @@
+{
+  "associatedLayout": "main_scene",
+  "name": "puzzle_completion",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "maze_complete",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "puzzle_block_obj",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

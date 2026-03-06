@@ -119,6 +119,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "level_win_obj",
+      "persistentUuid": "332366a5-ccde-4d1b-accd-a91e62170eb4",
+      "width": 0,
+      "x": 1616,
+      "y": 806,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

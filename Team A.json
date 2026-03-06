@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 260,
+    "build": 261,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -147,6 +147,14 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "won_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level_win_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "level_win_obj",
         "smoothed": true,
         "userAdded": false
       }

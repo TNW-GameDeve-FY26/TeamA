@@ -180,6 +180,11 @@
       "name": "maze_complete",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "level",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -190,6 +195,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/puzzles"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/home_screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game_info"
     }
   ],
   "externalEvents": [
@@ -212,6 +225,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/puzzle_completion"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/title_screen_buttons"
     }
   ],
   "eventsFunctionsExtensions": [],
@@ -219,6 +236,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/minimum_viable_product_scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/game_info"
     }
   ]
 }

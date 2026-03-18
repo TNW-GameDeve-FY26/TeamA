@@ -1,0 +1,55 @@
+{
+  "associatedLayout": "home_screen",
+  "name": "game_info",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "player_control_info_txt",
+      "persistentUuid": "c4f77072-39a9-49a9-80a1-fb59e8c56d2a",
+      "width": 0,
+      "x": 84,
+      "y": 76,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "menu_return_txt",
+      "persistentUuid": "a108df16-67b3-4025-aa23-deeb87aa3089",
+      "width": 0,
+      "x": 115,
+      "y": 645,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.3645833333333333,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  }
+}

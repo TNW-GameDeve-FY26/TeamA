@@ -5,7 +5,7 @@
   "name": "game_info",
   "r": 247,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 249,
   "uiSettings": {
@@ -232,7 +232,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -243,11 +243,9 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PopScene"
           },
           "parameters": [
-            "",
-            "\"home_screen\"",
             ""
           ]
         }

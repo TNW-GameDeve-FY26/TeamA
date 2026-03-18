@@ -1,40 +1,7 @@
 {
   "associatedLayout": "home_screen",
   "name": "game_info",
-  "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "player_control_info_txt",
-      "persistentUuid": "c4f77072-39a9-49a9-80a1-fb59e8c56d2a",
-      "width": 0,
-      "x": 84,
-      "y": 76,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "menu_return_txt",
-      "persistentUuid": "a108df16-67b3-4025-aa23-deeb87aa3089",
-      "width": 0,
-      "x": 115,
-      "y": 645,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    }
-  ],
+  "instances": [],
   "editionSettings": {
     "grid": false,
     "gridType": "rectangular",

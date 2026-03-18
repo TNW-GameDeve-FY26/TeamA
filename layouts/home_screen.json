@@ -5,7 +5,7 @@
   "name": "home_screen",
   "r": 247,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 249,
   "uiSettings": {
@@ -56,6 +56,22 @@
       "x": 800,
       "y": 461,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "game_quit_txt",
+      "persistentUuid": "12f2906a-e32b-4cdb-94d3-ff3ccb526d13",
+      "width": 0,
+      "x": 733,
+      "y": 565,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -152,14 +168,14 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "player_control_info_txt",
+      "name": "game_quit_txt",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "W = Upward Movement\nA = Backward Movement\nS = Downward Movement\nD = Forward Movement\nE = Interact",
+      "string": "Quit to Desktop",
       "font": "",
       "textAlignment": "left",
       "characterSize": 70,
@@ -174,7 +190,7 @@
         "isShadowEnabled": true,
         "italic": false,
         "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineThickness": 5,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -182,50 +198,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "W = Upward Movement\nA = Backward Movement\nS = Downward Movement\nD = Forward Movement\nE = Interact",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 70,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "menu_return_txt",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Return To Home Screen",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": true,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Return To Home Screen",
+        "text": "Quit to Desktop",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -245,10 +218,7 @@
         "objectName": "game_info_txt"
       },
       {
-        "objectName": "player_control_info_txt"
-      },
-      {
-        "objectName": "menu_return_txt"
+        "objectName": "game_quit_txt"
       }
     ]
   },
@@ -259,6 +229,34 @@
         "includeConfig": 0
       },
       "target": "title_screen_buttons"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "lobby_track.mp3",
+            "1",
+            "yes",
+            "100",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

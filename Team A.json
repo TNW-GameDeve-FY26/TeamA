@@ -157,6 +157,16 @@
         "name": "level_win_obj",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "lobby_track.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lobby_track.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },

@@ -167,6 +167,86 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/health_back_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "health_back_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_bar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "health_bar",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/damage_test.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "damage_test",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pulse_wave_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pulse_wave_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/enemy_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/enemy_obj.png\"}",
+        "name": "enemy_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/melee_hitbox_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "melee_hitbox_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_back_obj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/health_back_obj.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_back_obj4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "health_back_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_back_obj5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "health_back_obj3",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -239,9 +319,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/title_screen_buttons"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_attacks"
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    }
+  ],
   "externalLayouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -250,6 +343,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/game_info"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ui"
     }
   ]
 }

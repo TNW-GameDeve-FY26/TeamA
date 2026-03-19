@@ -135,6 +135,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "enemy_obj",
+      "persistentUuid": "3a490d54-12b2-4ebb-9e01-ba4af2be3889",
+      "width": 0,
+      "x": 1009,
+      "y": 740,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

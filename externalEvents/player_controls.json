@@ -25,6 +25,17 @@
             "",
             "\"a\""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "able_to_move",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [],
@@ -96,6 +107,17 @@
           "parameters": [
             "",
             "\"d\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "able_to_move",
+            "True",
+            ""
           ]
         }
       ],
@@ -169,6 +191,17 @@
             "",
             "\"w\""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "able_to_move",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [],
@@ -240,6 +273,17 @@
           "parameters": [
             "",
             "\"s\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "able_to_move",
+            "True",
+            ""
           ]
         }
       ],

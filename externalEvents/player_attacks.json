@@ -44,9 +44,31 @@
                 "",
                 "\"Right\""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "mana_bar_obj",
+                "mana_amount",
+                ">=",
+                "25"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "mana_bar_obj",
+                "mana_amount",
+                "-",
+                "25"
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanObjectVariable"
@@ -281,6 +303,117 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Mana",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "mana_bar_obj",
+            "Resizable",
+            "=",
+            "mana_bar_obj.mana_amount*3.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "mana_bar_obj",
+            "mana_amount",
+            "<",
+            "100"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "mana_bar_obj",
+            "\"mana_regen\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "mana_bar_obj",
+            "\"mana_regen\"",
+            ">=",
+            "mana_bar_obj.ObjectTimerElapsedTime(\"mana_regen\")"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "mana_bar_obj",
+            "mana_amount",
+            "+",
+            ".05"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "mana_bar_obj",
+            "mana_amount",
+            "=",
+            "100"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RemoveObjectTimer"
+          },
+          "parameters": [
+            "mana_bar_obj",
+            "\"mana_regen\""
+          ]
+        }
+      ]
     }
   ]
 }

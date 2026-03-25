@@ -33,6 +33,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "mana_back_obj",
+      "persistentUuid": "56e499e4-1b8c-42a0-b0f8-80f95125ebff",
+      "width": 0,
+      "x": 63,
+      "y": 112,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "mana_bar_obj",
+      "persistentUuid": "2cba488c-3cee-4249-a811-3ffe22450141",
+      "width": 0,
+      "x": 63,
+      "y": 112,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "exit_game_txt",
+      "persistentUuid": "c686f6ed-cfcc-41a7-9825-d79cd534a159",
+      "width": 0,
+      "x": 1750,
+      "y": 41,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -47,7 +95,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.49559525553812,
+    "zoomFactor": 0.43034038022076687,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

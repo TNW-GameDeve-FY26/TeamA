@@ -247,6 +247,22 @@
         "name": "health_back_obj3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/mana_back_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mana_back_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mana_bar_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mana_bar_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -327,12 +343,20 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/player_attacks"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/game_settings"
     }
   ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
     }
   ],
   "externalLayouts": [

@@ -397,7 +397,7 @@
           },
           "parameters": [
             "mana_bar_obj",
-            "mana_amount",
+            "mana_max",
             "=",
             "100"
           ]

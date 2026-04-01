@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 262,
+    "build": 261,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -383,6 +383,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/enemy_ai"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ui_test"
     }
   ],
   "eventsFunctionsExtensions": [

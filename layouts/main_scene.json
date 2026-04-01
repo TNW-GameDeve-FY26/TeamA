@@ -59,6 +59,16 @@
           "name": "able_to_move",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "using_spell",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "melee_attack",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -187,6 +197,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "puzzle_block_obj",
+      "persistentUuid": "95b3c418-29c1-4385-b062-271962e4879c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],

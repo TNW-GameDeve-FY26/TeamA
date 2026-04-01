@@ -1,0 +1,32 @@
+{
+  "associatedLayout": "main_scene",
+  "name": "Level 1",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "maze_complete",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Water_Diss_Obj",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

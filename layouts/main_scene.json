@@ -62,7 +62,60 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        }
+      ],
       "animations": [
         {
           "name": "player_obj",
@@ -1000,11 +1053,100 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Water_Diss_Obj",
+      "texture": "NewTiledSprite",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Path_Obj",
+      "texture": "NewTiledSprite2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Bridge_OBJ",
+      "texture": "NewTiledSprite3",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Water_Wall",
+      "persistentUuid": "6cbc2ba4-ca08-40d4-82b5-6fdc4dda7999",
+      "texture": "NewTiledSprite",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Level 1 stuff",
+        "children": [
+          {
+            "objectName": "enemy_obj"
+          },
+          {
+            "objectName": "level_win_obj"
+          },
+          {
+            "objectName": "forest_obj"
+          },
+          {
+            "objectName": "puzzle_block_obj"
+          },
+          {
+            "objectName": "collision_wall_obj"
+          },
+          {
+            "objectName": "melee_hitbox_obj"
+          },
+          {
+            "objectName": "pulse_wave_obj"
+          },
+          {
+            "objectName": "bullet_obj"
+          },
+          {
+            "objectName": "player_obj"
+          },
+          {
+            "objectName": "Path_Obj"
+          },
+          {
+            "objectName": "Water_Diss_Obj"
+          },
+          {
+            "objectName": "Water_Wall"
+          },
+          {
+            "objectName": "Bridge_OBJ"
+          }
+        ]
+      },
       {
         "folderName": "UI",
         "children": [
@@ -1024,33 +1166,6 @@
             "objectName": "exit_game_txt"
           }
         ]
-      },
-      {
-        "objectName": "player_obj"
-      },
-      {
-        "objectName": "melee_hitbox_obj"
-      },
-      {
-        "objectName": "collision_wall_obj"
-      },
-      {
-        "objectName": "puzzle_block_obj"
-      },
-      {
-        "objectName": "forest_obj"
-      },
-      {
-        "objectName": "level_win_obj"
-      },
-      {
-        "objectName": "pulse_wave_obj"
-      },
-      {
-        "objectName": "enemy_obj"
-      },
-      {
-        "objectName": "bullet_obj"
       }
     ]
   },
@@ -1131,7 +1246,7 @@
           },
           "parameters": [
             "",
-            "\"minimum_viable_product_scene\"",
+            "\"Lvl1\"",
             "0",
             "0",
             ""
@@ -1340,6 +1455,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

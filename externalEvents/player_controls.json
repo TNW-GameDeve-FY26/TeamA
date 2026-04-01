@@ -36,6 +36,28 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "using_spell",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "melee_attack",
+            "False",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -128,6 +150,28 @@
             "player_obj",
             "able_to_move",
             "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "using_spell",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "melee_attack",
+            "False",
             ""
           ]
         }
@@ -224,6 +268,28 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "using_spell",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "melee_attack",
+            "False",
+            ""
+          ]
         }
       ],
       "actions": [],
@@ -305,6 +371,28 @@
             "player_obj",
             "able_to_move",
             "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "using_spell",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "melee_attack",
+            "False",
             ""
           ]
         }

@@ -55,6 +55,17 @@
                 ">=",
                 "25"
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "player_obj",
+                "using_spell",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -75,8 +86,8 @@
               },
               "parameters": [
                 "player_obj",
-                "able_to_move",
-                "False",
+                "using_spell",
+                "True",
                 ""
               ]
             },
@@ -126,8 +137,8 @@
               },
               "parameters": [
                 "player_obj",
-                "able_to_move",
-                "True",
+                "using_spell",
+                "False",
                 ""
               ]
             }
@@ -213,8 +224,8 @@
               },
               "parameters": [
                 "player_obj",
-                "able_to_move",
-                "False",
+                "melee_attack",
+                "True",
                 ""
               ]
             },
@@ -253,8 +264,8 @@
               },
               "parameters": [
                 "player_obj",
-                "able_to_move",
-                "True",
+                "melee_attack",
+                "False",
                 ""
               ]
             }

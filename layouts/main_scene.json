@@ -1098,6 +1098,17 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Rock_Obj",
+      "texture": "NewTiledSprite4",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1144,6 +1155,9 @@
           },
           {
             "objectName": "Bridge_OBJ"
+          },
+          {
+            "objectName": "Rock_Obj"
           }
         ]
       },

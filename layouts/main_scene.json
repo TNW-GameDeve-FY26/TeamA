@@ -1304,6 +1304,13 @@
         "includeConfig": 0
       },
       "target": "enemy_ai"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Level 1"
     }
   ],
   "layers": [

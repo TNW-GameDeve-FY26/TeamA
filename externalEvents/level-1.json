@@ -19,11 +19,10 @@
       "actions": [
         {
           "type": {
-            "value": "Delete"
+            "value": "Hide"
           },
           "parameters": [
-            "Water_Diss_Obj",
-            ""
+            "Water_Diss_Obj"
           ]
         }
       ]

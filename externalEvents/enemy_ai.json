@@ -58,6 +58,17 @@
         },
         {
           "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "bullet_obj",
+            "Scale",
+            "=",
+            ".02"
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [

@@ -326,6 +326,22 @@
         "name": "NewTiledSprite4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "bush_guy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush_guy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bush_bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush_bullet.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

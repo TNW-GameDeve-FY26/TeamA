@@ -692,7 +692,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "enemy_obj",
+                  "image": "bush_guy.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -708,20 +708,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 116,
+                        "y": 301
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 868,
+                        "y": 301
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 868,
+                        "y": 806
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 116,
+                        "y": 806
                       }
                     ]
                   ]
@@ -1025,7 +1025,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bullet_obj2",
+                  "image": "bush_bullet.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1045,16 +1045,16 @@
                         "y": 0
                       },
                       {
-                        "x": 10,
+                        "x": 988,
                         "y": 0
                       },
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 988,
+                        "y": 998
                       },
                       {
                         "x": 0,
-                        "y": 10
+                        "y": 998
                       }
                     ]
                   ]
@@ -1080,6 +1080,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Path_Obj",
+      "persistentUuid": "5be74ee0-4d88-4066-a7d8-b8fd75509805",
       "texture": "NewTiledSprite2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,

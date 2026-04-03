@@ -127,7 +127,7 @@
           },
           "parameters": [
             "player_obj",
-            "Rock_Obj",
+            "obj_barrier",
             "",
             "",
             ""
@@ -141,7 +141,7 @@
           },
           "parameters": [
             "player_obj",
-            "Rock_Obj",
+            "obj_barrier",
             ""
           ]
         }
@@ -234,7 +234,7 @@
           },
           "parameters": [
             "bullet_obj",
-            "Rock_Obj",
+            "obj_barrier",
             "",
             "",
             ""

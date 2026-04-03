@@ -1114,13 +1114,75 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "Rock_Obj",
-      "texture": "NewTiledSprite4",
+      "name": "obj_barrier",
+      "persistentUuid": "398d0261-ad70-40f3-b5c4-38e944e37d28",
+      "texture": "NewTiledSprite7",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "small_rock_one",
+      "persistentUuid": "696d01e5-e931-4584-a3f6-3ce182c64654",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "small rock.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 82,
+                        "y": 58
+                      },
+                      {
+                        "x": 995,
+                        "y": 58
+                      },
+                      {
+                        "x": 995,
+                        "y": 981
+                      },
+                      {
+                        "x": 82,
+                        "y": 981
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1131,6 +1193,9 @@
         "children": [
           {
             "objectName": "enemy_obj"
+          },
+          {
+            "objectName": "small_rock_one"
           },
           {
             "objectName": "level_win_obj"
@@ -1169,7 +1234,7 @@
             "objectName": "Bridge_OBJ"
           },
           {
-            "objectName": "Rock_Obj"
+            "objectName": "obj_barrier"
           }
         ]
       },

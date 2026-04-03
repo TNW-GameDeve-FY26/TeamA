@@ -322,7 +322,7 @@
       {
         "file": "assets/NewTiledSprite4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite4.png\"}",
         "name": "NewTiledSprite4",
         "smoothed": true,
         "userAdded": false
@@ -340,6 +340,38 @@
         "kind": "image",
         "metadata": "",
         "name": "bush_bullet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "small rock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "small rock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite7",
         "smoothed": true,
         "userAdded": false
       }

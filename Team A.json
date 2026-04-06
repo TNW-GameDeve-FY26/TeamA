@@ -1,7 +1,7 @@
 {
   "firstLayout": "home_screen",
   "gdVersion": {
-    "build": 263,
+    "build": 264,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -372,6 +372,14 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "path_thing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "path_thing.png",
         "smoothed": true,
         "userAdded": false
       }

@@ -629,7 +629,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "enemy_obj",
       "persistentUuid": "ba5d33b2-1402-4050-bd5e-df54e44ba5e9",
@@ -708,20 +708,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 116,
-                        "y": 301
+                        "x": 192.5,
+                        "y": 551
                       },
                       {
-                        "x": 868,
-                        "y": 301
+                        "x": 302,
+                        "y": 320.5
                       },
                       {
-                        "x": 868,
-                        "y": 806
+                        "x": 700.5,
+                        "y": 379.5
                       },
                       {
-                        "x": 116,
-                        "y": 806
+                        "x": 796,
+                        "y": 588
+                      },
+                      {
+                        "x": 726.5,
+                        "y": 714.5
+                      },
+                      {
+                        "x": 534.5,
+                        "y": 799
+                      },
+                      {
+                        "x": 263,
+                        "y": 750.5
                       }
                     ]
                   ]
@@ -1081,7 +1093,7 @@
       "height": 32,
       "name": "Path_Obj",
       "persistentUuid": "5be74ee0-4d88-4066-a7d8-b8fd75509805",
-      "texture": "NewTiledSprite2",
+      "texture": "path_thing.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],

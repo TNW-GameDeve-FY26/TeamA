@@ -57,8 +57,11 @@
     {
       "description": "Manage health (life) points, shield and armor.",
       "fullName": "Health",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Health",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

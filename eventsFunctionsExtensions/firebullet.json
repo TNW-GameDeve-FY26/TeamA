@@ -61,8 +61,11 @@
     {
       "description": "Fire bullets with built-in cooldown, ammo, reloading, and overheating. Once added to your object that must shoot, use the behavior actions to fire another object as a bullet. These actions check all constraints internally (can be called without conditions, they will only fire when ready) and will make the bullet move (using a permanent force).",
       "fullName": "Fire bullets",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FireBullet",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

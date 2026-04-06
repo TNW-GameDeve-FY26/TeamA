@@ -38,13 +38,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "player_obj",
       "persistentUuid": "b075faad-6ba3-4c40-a3a0-8757e5b3da52",
-      "width": 0,
+      "width": 64,
       "x": 416,
       "y": 768,
       "zOrder": 79,
@@ -1166,6 +1167,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "level_win_obj",
+      "persistentUuid": "2c954dcd-fa0a-4eec-aa47-df77986caec0",
+      "width": 0,
+      "x": 544,
+      "y": 736,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1180,7 +1197,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4506045576879739,
+    "zoomFactor": 0.7410396465841929,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

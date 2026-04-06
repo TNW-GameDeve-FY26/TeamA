@@ -1195,43 +1195,125 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Path_Lvl2_Obj",
+      "texture": "Path_Lvl2_Obj",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Stone_Wall_Lvl2Obj",
+      "texture": "NewTiledSprite8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Enemy_Placeholder",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+        "folderName": "Level 2 stuff",
+        "children": [
+          {
+            "objectName": "Path_Lvl2_Obj"
+          }
+        ]
+      },
+      {
+        "objectName": "Enemy_Placeholder"
+      },
+      {
+        "objectName": "Stone_Wall_Lvl2Obj"
+      },
+      {
         "folderName": "Level 1 stuff",
         "children": [
           {
-            "objectName": "enemy_obj"
+            "objectName": "bullet_obj"
           },
           {
             "objectName": "small_rock_one"
           },
           {
-            "objectName": "level_win_obj"
+            "objectName": "enemy_obj"
           },
           {
             "objectName": "forest_obj"
           },
           {
-            "objectName": "puzzle_block_obj"
-          },
-          {
-            "objectName": "collision_wall_obj"
-          },
-          {
-            "objectName": "melee_hitbox_obj"
-          },
-          {
             "objectName": "pulse_wave_obj"
-          },
-          {
-            "objectName": "bullet_obj"
-          },
-          {
-            "objectName": "player_obj"
           },
           {
             "objectName": "Path_Obj"
@@ -1244,11 +1326,26 @@
           },
           {
             "objectName": "Bridge_OBJ"
-          },
-          {
-            "objectName": "obj_barrier"
           }
         ]
+      },
+      {
+        "objectName": "player_obj"
+      },
+      {
+        "objectName": "puzzle_block_obj"
+      },
+      {
+        "objectName": "level_win_obj"
+      },
+      {
+        "objectName": "collision_wall_obj"
+      },
+      {
+        "objectName": "obj_barrier"
+      },
+      {
+        "objectName": "melee_hitbox_obj"
       },
       {
         "folderName": "UI",
@@ -1390,6 +1487,41 @@
             "0",
             "0",
             "100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "level",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"Lvl2\"",
+            "0",
+            "0",
+            ""
           ]
         }
       ]

@@ -1,7 +1,7 @@
 {
   "firstLayout": "home_screen",
   "gdVersion": {
-    "build": 264,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -382,6 +382,38 @@
         "name": "path_thing.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Path_Lvl2_Obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Path_Lvl2_Obj.png\"}",
+        "name": "Path_Lvl2_Obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/St.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "St",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -510,6 +542,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/lvl2"
     }
   ]
 }

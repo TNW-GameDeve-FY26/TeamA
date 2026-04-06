@@ -1,7 +1,7 @@
 {
   "firstLayout": "home_screen",
   "gdVersion": {
-    "build": 264,
+    "build": 263,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -380,6 +380,22 @@
         "kind": "image",
         "metadata": "",
         "name": "path_thing.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "concept.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "concept2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept2.png",
         "smoothed": true,
         "userAdded": false
       }

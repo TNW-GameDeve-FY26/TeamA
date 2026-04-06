@@ -1,7 +1,7 @@
 {
   "firstLayout": "home_screen",
   "gdVersion": {
-    "build": 263,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -396,6 +396,22 @@
         "kind": "image",
         "metadata": "",
         "name": "concept2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "big_rock_one.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "big_rock_one.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "big_rock_one2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "big_rock_one2.png",
         "smoothed": true,
         "userAdded": false
       }

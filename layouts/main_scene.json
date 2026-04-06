@@ -1195,6 +1195,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_big_rock_one",
+      "persistentUuid": "3eb332fb-f94e-4885-adcb-da1255483de7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "big_rock_one2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 54,
+                        "y": 144
+                      },
+                      {
+                        "x": 969,
+                        "y": 144
+                      },
+                      {
+                        "x": 969,
+                        "y": 969
+                      },
+                      {
+                        "x": 54,
+                        "y": 969
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1247,6 +1308,9 @@
           },
           {
             "objectName": "obj_barrier"
+          },
+          {
+            "objectName": "obj_big_rock_one"
           }
         ]
       },

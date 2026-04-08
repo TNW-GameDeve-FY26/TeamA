@@ -178,6 +178,35 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_obj",
+            "StoneWallAdded_Obj",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player_obj",
+            "StoneWallAdded_Obj",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
@@ -252,22 +281,22 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"main_scene\"",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
             "level",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"main_scene\"",
+            ""
           ]
         }
       ]
@@ -329,9 +358,21 @@
           },
           "parameters": [
             "",
-            "Stone_Wall_Lvl2Obj",
-            "player_obj.CenterX()",
-            "player_obj.CenterY()",
+            "StoneWallAdded_Obj",
+            "4032",
+            "160",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "StoneWallAdded_Obj",
+            "896",
+            "832",
             ""
           ]
         }
@@ -351,9 +392,40 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "StoneWallAdded_Obj",
+            "3072",
+            "-1184",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "StoneWallAdded_Obj",
+            "864",
+            "-648",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }

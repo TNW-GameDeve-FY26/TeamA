@@ -446,6 +446,14 @@
         "name": "NewTiledSprite10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite11",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -538,6 +546,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/level-2"
     }
   ],
   "eventsFunctionsExtensions": [

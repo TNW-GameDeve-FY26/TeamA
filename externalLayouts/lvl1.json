@@ -1167,22 +1167,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "level_win_obj",
-      "persistentUuid": "2c954dcd-fa0a-4eec-aa47-df77986caec0",
-      "width": 0,
-      "x": 384,
-      "y": 736,
-      "zOrder": 88,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1197,7 +1181,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7168666659837021,
+    "zoomFactor": 0.5145265746872523,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

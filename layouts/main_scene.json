@@ -1278,6 +1278,77 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Trigger_Obj_1",
+      "texture": "Trigger_Obj_1",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Trigger_Obj_2",
+      "persistentUuid": "de988dc8-bec3-44c1-9967-bdeece397a22",
+      "texture": "NewTiledSprite9",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Test_Block",
+      "texture": "NewTiledSprite10",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DiveDash",
+          "type": "AdvancedJump::DiveDash",
+          "PlatformerCharacter": "PlatformerObject",
+          "PlatformerConfigurationStack": "PlatformerConfigurationStack",
+          "DiveMaxFallingSpeed": 3000,
+          "DiveInitialFallingSpeed": 1000,
+          "DiveGravity": 8000,
+          "IsDiving": false
+        },
+        {
+          "name": "PlatformerConfigurationStack",
+          "type": "AdvancedJump::PlatformerConfigurationStack",
+          "PlatformerCharacter": "PlatformerObject"
+        },
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1287,15 +1358,15 @@
         "folderName": "Level 2 stuff",
         "children": [
           {
+            "objectName": "Enemy_Placeholder"
+          },
+          {
+            "objectName": "Stone_Wall_Lvl2Obj"
+          },
+          {
             "objectName": "Path_Lvl2_Obj"
           }
         ]
-      },
-      {
-        "objectName": "Enemy_Placeholder"
-      },
-      {
-        "objectName": "Stone_Wall_Lvl2Obj"
       },
       {
         "folderName": "Level 1 stuff",
@@ -1366,6 +1437,15 @@
             "objectName": "exit_game_txt"
           }
         ]
+      },
+      {
+        "objectName": "Trigger_Obj_1"
+      },
+      {
+        "objectName": "Trigger_Obj_2"
+      },
+      {
+        "objectName": "Test_Block"
       }
     ]
   },
@@ -1675,6 +1755,10 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
+      "name": "DiveDash",
+      "type": "AdvancedJump::DiveDash"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -1689,6 +1773,14 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "PlatformerConfigurationStack",
+      "type": "AdvancedJump::PlatformerConfigurationStack"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
     {
       "name": "Resizable",

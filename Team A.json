@@ -414,6 +414,30 @@
         "name": "big_rock_one2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "game ui outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "game ui outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "game ui blackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "game ui blackground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "game bluei.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "game bluei.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

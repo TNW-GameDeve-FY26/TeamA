@@ -438,6 +438,22 @@
         "name": "game bluei.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/obj_trigger.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "obj_trigger",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -530,6 +546,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lvl3"
     }
   ],
   "eventsFunctionsExtensions": [
@@ -566,6 +586,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/lvl3"
     }
   ]
 }

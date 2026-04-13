@@ -298,6 +298,16 @@
             "\"main_scene\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "maze_complete",
+            "False",
+            "1"
+          ]
         }
       ]
     },

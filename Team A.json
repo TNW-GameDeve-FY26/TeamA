@@ -384,97 +384,54 @@
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "assets/Path_Lvl2_Obj.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Path_Lvl2_Obj.png\"}",
         "name": "Path_Lvl2_Obj",
-=======
-        "file": "concept.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "concept.png",
->>>>>>> main
         "smoothed": true,
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "assets/NewTiledSprite8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite8.png\"}",
         "name": "NewTiledSprite8",
-=======
-        "file": "concept2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "concept2.png",
->>>>>>> main
         "smoothed": true,
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "assets/St.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "St",
-=======
-        "file": "big_rock_one.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "big_rock_one.png",
->>>>>>> main
         "smoothed": true,
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "assets/NewSprite8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite3",
-=======
-        "file": "big_rock_one2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "big_rock_one2.png",
->>>>>>> main
         "smoothed": true,
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "assets/NewTiledSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite9.png\"}",
         "name": "NewTiledSprite9",
-=======
-        "file": "game ui outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "game ui outline.png",
->>>>>>> main
         "smoothed": true,
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "assets/Trigger_Obj_1.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Trigger_Obj_1",
-=======
-        "file": "game ui blackground.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "game ui blackground.png",
->>>>>>> main
         "smoothed": true,
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "assets/New image.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -495,12 +452,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite11",
-=======
-        "file": "game bluei.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "game bluei.png",
->>>>>>> main
         "smoothed": true,
         "userAdded": false
       }

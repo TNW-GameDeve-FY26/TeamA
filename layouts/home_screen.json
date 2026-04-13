@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333337,
+    "zoomFactor": 0.3645833333333333,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -72,23 +72,6 @@
       "x": 733,
       "y": 565,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1079,
-      "keepRatio": true,
-      "layer": "",
-      "name": "home_screen_background_obj",
-      "persistentUuid": "20cdd4ea-f97a-4c7b-8e3a-9bdebdffc605",
-      "width": 1932,
-      "x": -13,
-      "y": 2,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -223,67 +206,6 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "home_screen_background_obj",
-      "persistentUuid": "a60a1339-ee19-4479-9169-02edb0f15147",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "concept.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 10000,
-                        "y": 0
-                      },
-                      {
-                        "x": 10000,
-                        "y": 5000
-                      },
-                      {
-                        "x": 0,
-                        "y": 5000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -297,9 +219,6 @@
       },
       {
         "objectName": "game_quit_txt"
-      },
-      {
-        "objectName": "home_screen_background_obj"
       }
     ]
   },
@@ -409,24 +328,12 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
     {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",

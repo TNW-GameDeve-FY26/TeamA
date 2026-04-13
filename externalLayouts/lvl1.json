@@ -1216,6 +1216,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Obj_Melee_Man___Enemy",
+      "persistentUuid": "54b58487-adac-4614-93c1-a6d9e856e32b",
+      "width": 0,
+      "x": 736,
+      "y": 704,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1230,7 +1246,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.22455946803673807,
+    "zoomFactor": 0.2321316874215798,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

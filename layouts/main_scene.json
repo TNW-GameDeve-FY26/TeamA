@@ -43,6 +43,26 @@
       "name": "movement_speed",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Melee_Man_Health",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Melee_Man_Damage",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "name": "Melee_Man_AttackRange",
+      "type": "number",
+      "value": 80
+    },
+    {
+      "name": "Is_Attacking",
+      "type": "string",
+      "value": "True"
     }
   ],
   "instances": [],
@@ -1256,6 +1276,117 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Obj_Melee_Man___Enemy",
+      "persistentUuid": "dd9dcd10-646c-4566-8f66-1ac62779ad15",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 50
+        },
+        {
+          "name": "AttackRange",
+          "type": "number",
+          "value": 80
+        },
+        {
+          "name": "IsAttacking",
+          "type": "string",
+          "value": "False"
+        },
+        {
+          "name": "IsOnCooldown",
+          "type": "string",
+          "value": "False"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attacking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1333,6 +1464,9 @@
             "objectName": "exit_game_txt"
           }
         ]
+      },
+      {
+        "objectName": "Obj_Melee_Man___Enemy"
       }
     ]
   },
@@ -1621,6 +1755,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "Resizable",

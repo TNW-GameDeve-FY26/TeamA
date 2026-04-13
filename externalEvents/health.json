@@ -26,7 +26,7 @@
             "health_bar",
             "Resizable",
             "=",
-            "health_bar.health_amount*3.5"
+            "health_bar.health_amount*3"
           ]
         }
       ]
@@ -49,9 +49,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
+            "",
+            "\"home_screen\"",
             ""
           ]
         }

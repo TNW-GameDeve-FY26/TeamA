@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.187817328805304,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -56,6 +56,23 @@
       "x": 150,
       "y": 576,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1081,
+      "keepRatio": true,
+      "layer": "",
+      "name": "game_info_background_obj",
+      "persistentUuid": "f8b5f77e-3b2b-4722-ad9d-84bc1fba09e0",
+      "width": 1914,
+      "x": 3,
+      "y": -2,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -147,6 +164,67 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "game_info_background_obj",
+      "persistentUuid": "daadefc8-9183-4575-ba2b-07abf79040cf",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "concept2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 10000,
+                        "y": 0
+                      },
+                      {
+                        "x": 10000,
+                        "y": 5000
+                      },
+                      {
+                        "x": 0,
+                        "y": 5000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -157,6 +235,9 @@
       },
       {
         "objectName": "menu_return_txt"
+      },
+      {
+        "objectName": "game_info_background_obj"
       }
     ]
   },
@@ -321,12 +402,24 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",

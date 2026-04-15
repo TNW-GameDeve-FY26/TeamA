@@ -1197,10 +1197,31 @@
       ]
     },
     {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Path_Lvl2_Obj",
+      "texture": "Path_Lvl2_Obj",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Stone_Wall_Lvl2Obj",
+      "texture": "NewTiledSprite8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "obj_big_rock_one",
-      "persistentUuid": "3eb332fb-f94e-4885-adcb-da1255483de7",
+      "name": "Enemy_Placeholder",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1208,16 +1229,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "NewSprite",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "big_rock_one2.png",
+                  "image": "NewSprite3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1233,20 +1255,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 54,
-                        "y": 144
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 969,
-                        "y": 144
+                        "x": 64,
+                        "y": 0
                       },
                       {
-                        "x": 969,
-                        "y": 969
+                        "x": 64,
+                        "y": 64
                       },
                       {
-                        "x": 54,
-                        "y": 969
+                        "x": 0,
+                        "y": 64
                       }
                     ]
                   ]
@@ -1258,224 +1280,143 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ui_outline",
-      "persistentUuid": "3649d08f-2123-4bc9-88a6-fd3bcf3ac614",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "height": 32,
+      "name": "Trigger_Obj_1",
+      "texture": "Trigger_Obj_1",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "game ui outline.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 808,
-                        "y": 166
-                      },
-                      {
-                        "x": 7739,
-                        "y": 166
-                      },
-                      {
-                        "x": 7739,
-                        "y": 4434
-                      },
-                      {
-                        "x": 808,
-                        "y": 4434
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ui_background",
-      "persistentUuid": "71f8330b-8040-4208-be22-f99b8fd82a18",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "height": 32,
+      "name": "Trigger_Obj_2",
+      "persistentUuid": "de988dc8-bec3-44c1-9967-bdeece397a22",
+      "texture": "NewTiledSprite9",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "game ui blackground.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1260,
-                        "y": 214
-                      },
-                      {
-                        "x": 7720,
-                        "y": 214
-                      },
-                      {
-                        "x": 7720,
-                        "y": 2424
-                      },
-                      {
-                        "x": 1260,
-                        "y": 2424
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ui_blue",
-      "persistentUuid": "db3f8430-da51-419c-87e1-6b5130a42331",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "height": 1000,
+      "name": "StoneWallAdded_Obj",
+      "texture": "NewTiledSprite11",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1590,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Stone_Wall_Disapear",
+      "texture": "NewTiledSprite8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Temp_End_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "game bluei.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 806,
-                        "y": 160
-                      },
-                      {
-                        "x": 2482,
-                        "y": 160
-                      },
-                      {
-                        "x": 2482,
-                        "y": 4463
-                      },
-                      {
-                        "x": 806,
-                        "y": 4463
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "string": "Hey you! Your not supposed to be here! or, your playing on browser and we havent fixed the thing, anways, you got to the end of the level ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hey you! Your not supposed to be here! or, your playing on browser and we havent fixed the thing, anways, you got to the end of the level ",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+        "folderName": "Level 2 stuff",
+        "children": [
+          {
+            "objectName": "Temp_End_Text"
+          },
+          {
+            "objectName": "Trigger_Obj_1"
+          },
+          {
+            "objectName": "Trigger_Obj_2"
+          },
+          {
+            "objectName": "StoneWallAdded_Obj"
+          },
+          {
+            "objectName": "Stone_Wall_Disapear"
+          },
+          {
+            "objectName": "Enemy_Placeholder"
+          },
+          {
+            "objectName": "Stone_Wall_Lvl2Obj"
+          },
+          {
+            "objectName": "Path_Lvl2_Obj"
+          }
+        ]
+      },
+      {
         "folderName": "Level 1 stuff",
         "children": [
           {
-            "objectName": "enemy_obj"
+            "objectName": "bullet_obj"
           },
           {
             "objectName": "small_rock_one"
           },
           {
-            "objectName": "level_win_obj"
+            "objectName": "enemy_obj"
           },
           {
             "objectName": "forest_obj"
           },
           {
-            "objectName": "puzzle_block_obj"
-          },
-          {
-            "objectName": "collision_wall_obj"
-          },
-          {
-            "objectName": "melee_hitbox_obj"
-          },
-          {
             "objectName": "pulse_wave_obj"
-          },
-          {
-            "objectName": "bullet_obj"
-          },
-          {
-            "objectName": "player_obj"
           },
           {
             "objectName": "Path_Obj"
@@ -1488,24 +1429,30 @@
           },
           {
             "objectName": "Bridge_OBJ"
-          },
-          {
-            "objectName": "obj_barrier"
-          },
-          {
-            "objectName": "obj_big_rock_one"
           }
         ]
       },
       {
+        "objectName": "player_obj"
+      },
+      {
+        "objectName": "puzzle_block_obj"
+      },
+      {
+        "objectName": "level_win_obj"
+      },
+      {
+        "objectName": "collision_wall_obj"
+      },
+      {
+        "objectName": "obj_barrier"
+      },
+      {
+        "objectName": "melee_hitbox_obj"
+      },
+      {
         "folderName": "UI",
         "children": [
-          {
-            "objectName": "ui_outline"
-          },
-          {
-            "objectName": "ui_blue"
-          },
           {
             "objectName": "health_back_obj"
           },
@@ -1522,9 +1469,6 @@
             "objectName": "exit_game_txt"
           }
         ]
-      },
-      {
-        "objectName": "ui_background"
       }
     ]
   },
@@ -1651,6 +1595,66 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "level",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"Lvl2\"",
+            "0",
+            "0",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "level",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -1676,7 +1680,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "sounds"
+      "target": "Level 2"
     }
   ],
   "layers": [
@@ -1758,60 +1762,6 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "UI",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": true,
-      "name": "outline",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

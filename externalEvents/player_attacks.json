@@ -338,7 +338,7 @@
             "mana_bar_obj",
             "Resizable",
             "=",
-            "mana_bar_obj.mana_amount*2.54"
+            "mana_bar_obj.mana_amount*3.5"
           ]
         }
       ]

@@ -1670,6 +1670,13 @@
         "includeConfig": 0
       },
       "target": "Level 1"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sounds"
     }
   ],
   "layers": [

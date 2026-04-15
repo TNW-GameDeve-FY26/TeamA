@@ -1,0 +1,42 @@
+{
+  "associatedLayout": "main_scene",
+  "name": "sounds",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "level",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "old_start.mp3",
+            "2",
+            "yes",
+            "25",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

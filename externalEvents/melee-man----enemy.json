@@ -36,6 +36,26 @@
             "=",
             "\"False\""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Melee Man Cooldown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "health_bar",
+            "health_amount",
+            "=",
+            "100"
+          ]
         }
       ]
     },
@@ -61,8 +81,19 @@
           "parameters": [
             "Obj_Melee_Man___Enemy",
             "player_obj",
-            "400",
+            "800",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Melee Man Cooldown\"",
+            ">=",
+            "2.5"
           ]
         }
       ],
@@ -86,40 +117,14 @@
       "conditions": [
         {
           "type": {
-            "value": "Distance"
+            "value": "CollisionNP"
           },
           "parameters": [
-            "Obj_Melee_Man___Enemy",
             "player_obj",
-            "150",
+            "Obj_Melee_Man___Enemy",
+            "",
+            "",
             ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "Is_Attacking",
-            "=",
-            "\"True\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "StringVariable"
-          },
-          "parameters": [
-            "Is_Attacking",
-            "=",
-            "\"True\" "
           ]
         },
         {
@@ -137,13 +142,12 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "SetStringVariable"
           },
           "parameters": [
-            "Obj_Melee_Man___Enemy",
-            "Animation",
+            "Is_Attacking",
             "=",
-            "\"Attacking\""
+            "\"True\""
           ]
         },
         {
@@ -179,24 +183,12 @@
           "parameters": [
             "player_obj",
             "Obj_Melee_Man___Enemy",
-            "150",
+            "350",
             ""
           ]
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "PathfindingBehavior::SetDestination"
-          },
-          "parameters": [
-            "Obj_Melee_Man___Enemy",
-            "Pathfinding",
-            "",
-            "player_obj.X()",
-            "player_obj.Y()"
-          ]
-        },
         {
           "type": {
             "value": "SetStringVariable"
@@ -205,6 +197,33 @@
             "Is_Attacking",
             "=",
             "\"False\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "health_bar",
+            "health_amount",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "player_obj",
+            ""
           ]
         }
       ]

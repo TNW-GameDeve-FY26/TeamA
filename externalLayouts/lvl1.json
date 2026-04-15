@@ -1167,10 +1167,26 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tutorial_Placeholder",
+      "persistentUuid": "627576d4-388f-498a-997d-4b114ee3cd56",
+      "width": 0,
+      "x": 384,
+      "y": 512,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -1180,9 +1196,9 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.5145265746872523,
-    "windowMask": false,
+    "snap": false,
+    "zoomFactor": 0.766027748069556,
+    "windowMask": true,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   }

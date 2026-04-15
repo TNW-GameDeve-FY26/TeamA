@@ -43,6 +43,11 @@
       "name": "movement_speed",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "In_Dialog",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [],
@@ -748,6 +753,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "melee_hitbox_obj",
+      "persistentUuid": "4b5e3122-8944-4a8e-858e-c4e9b5a61bcb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1366,11 +1372,390 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tutorial_Placeholder",
+      "persistentUuid": "98c16108-61a7-47c0-bf64-082a55dab95c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Tutorial_placeholder",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Tutorial_placeholder",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text_Interact",
+      "persistentUuid": "4d64ec4a-e4be-4452-bee1-63cfd6fd3a8e",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "\"E\"",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "\"E\"",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 64,
+      "leftMargin": 0,
+      "name": "Text_box",
+      "persistentUuid": "14708cdd-e707-4e46-9bcb-fa212512851f",
+      "rightMargin": 0,
+      "texture": "Text_Box2",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 425,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text_Welcome",
+      "persistentUuid": "cdd12056-9db3-4e8a-b8ef-baf6586631c1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "???: Wow you just popped out of nowhere! \nNearly scared me half to death!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 19,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "???: Wow you just popped out of nowhere! \nNearly scared me half to death!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 19,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text_2",
+      "persistentUuid": "bd307a54-8a51-495e-be25-56d18b95ed37",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "???: My name is Finnbogi. Anyway, who are you...? \n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 19,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "???: My name is Finnbogi. Anyway, who are you...? \n",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 19,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 64,
+      "leftMargin": 0,
+      "name": "Text_Box2",
+      "persistentUuid": "1658b5bf-3262-4f96-a65d-319a0a410bd5",
+      "rightMargin": 0,
+      "texture": "Text_Box2",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 487,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text_3",
+      "persistentUuid": "08add04e-11de-484e-8f23-ac0709efa4f0",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Finnbogi: Nice to meet you Daniel Garfunkal!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 19,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Finnbogi: Nice to meet you Daniel Garfunkal!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 19,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text_4_End",
+      "persistentUuid": "bff11582-755d-437d-b154-c6d1ab30ed23",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Finnbogi: Oh no! there are monsters over there! \n(Use E for Spell Attack and LMB for Melee)",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 19,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Finnbogi: Oh no! there are monsters over there! \n(Use E for Spell Attack and LMB for Melee)",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 19,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Other",
+        "children": [
+          {
+            "objectName": "obj_barrier"
+          },
+          {
+            "objectName": "collision_wall_obj"
+          },
+          {
+            "objectName": "level_win_obj"
+          },
+          {
+            "objectName": "puzzle_block_obj"
+          },
+          {
+            "objectName": "player_obj"
+          },
+          {
+            "objectName": "melee_hitbox_obj"
+          }
+        ]
+      },
       {
         "folderName": "Level 2 stuff",
         "children": [
@@ -1433,24 +1818,6 @@
         ]
       },
       {
-        "objectName": "player_obj"
-      },
-      {
-        "objectName": "puzzle_block_obj"
-      },
-      {
-        "objectName": "level_win_obj"
-      },
-      {
-        "objectName": "collision_wall_obj"
-      },
-      {
-        "objectName": "obj_barrier"
-      },
-      {
-        "objectName": "melee_hitbox_obj"
-      },
-      {
         "folderName": "UI",
         "children": [
           {
@@ -1467,6 +1834,35 @@
           },
           {
             "objectName": "exit_game_txt"
+          }
+        ]
+      },
+      {
+        "folderName": "Text-Dialog Stuff",
+        "children": [
+          {
+            "objectName": "Tutorial_Placeholder"
+          },
+          {
+            "objectName": "Text_Welcome"
+          },
+          {
+            "objectName": "Text_box"
+          },
+          {
+            "objectName": "Text_Box2"
+          },
+          {
+            "objectName": "Text_Interact"
+          },
+          {
+            "objectName": "Text_2"
+          },
+          {
+            "objectName": "Text_3"
+          },
+          {
+            "objectName": "Text_4_End"
           }
         ]
       }
@@ -1681,6 +2077,13 @@
         "includeConfig": 0
       },
       "target": "Level 2"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Charactor_Dialog"
     }
   ],
   "layers": [
@@ -1808,6 +2211,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",

@@ -454,6 +454,72 @@
         "name": "NewTiledSprite11",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "old_start2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "old_start2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "concept.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "concept2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Main_Charactor_Sprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main_Charactor_Sprite.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_obj2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/player_obj2.png\"}",
+        "name": "player_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_obj3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_obj3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_obj4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_obj4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_obj5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_obj5",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -550,6 +616,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music"
     }
   ],
   "eventsFunctionsExtensions": [
@@ -594,6 +664,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/boss_fight"
     }
   ]
 }

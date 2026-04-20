@@ -464,6 +464,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "concept.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "concept2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -608,6 +624,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/boss_fight"
     }
   ]
 }

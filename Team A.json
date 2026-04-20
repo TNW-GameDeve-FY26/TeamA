@@ -480,6 +480,78 @@
         "name": "concept2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/boss_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "boss_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/boss_obj2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "boss_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topl_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/topl_twn.png\"}",
+        "name": "topl_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topr_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topr_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bottoml_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bottoml_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bottomr_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bottomr_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/center_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "center_twn",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -580,6 +652,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/music"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/boss_fight"
     }
   ],
   "eventsFunctionsExtensions": [

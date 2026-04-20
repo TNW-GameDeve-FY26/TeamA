@@ -243,6 +243,17 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "player_obj",
+                "melee_attack",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [

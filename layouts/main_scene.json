@@ -63,6 +63,31 @@
       "name": "Is_Attacking",
       "type": "string",
       "value": "True"
+    },
+    {
+      "name": "Is_Attacking_Leech",
+      "type": "string",
+      "value": "True"
+    },
+    {
+      "name": "AttackRange_Leech",
+      "type": "number",
+      "value": 250
+    },
+    {
+      "name": "Damage_Leech",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "name": "CanSeePlayer",
+      "type": "string",
+      "value": "Yes"
+    },
+    {
+      "name": "HasHit_Leech",
+      "type": "string",
+      "value": "False"
     }
   ],
   "instances": [],
@@ -1387,11 +1412,146 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Obj_Lantern_Leach_Enemy",
+      "persistentUuid": "fa220e64-00b1-4c45-9e2a-f810dfdec058",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Obj_Lantern_Leech_Hitbox",
+      "persistentUuid": "cf41e349-f850-459d-8494-32139cc8402d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 34,
+                    "y": 44.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 33.5,
+                    "y": 33
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 17
+                      },
+                      {
+                        "x": 56,
+                        "y": 17
+                      },
+                      {
+                        "x": 56,
+                        "y": 45
+                      },
+                      {
+                        "x": 12,
+                        "y": 45
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Enemies",
+        "children": [
+          {
+            "objectName": "Obj_Melee_Man___Enemy"
+          },
+          {
+            "objectName": "Obj_Lantern_Leach_Enemy"
+          }
+        ]
+      },
       {
         "folderName": "Level 1 stuff",
         "children": [
@@ -1466,7 +1626,7 @@
         ]
       },
       {
-        "objectName": "Obj_Melee_Man___Enemy"
+        "objectName": "Obj_Lantern_Leech_Hitbox"
       }
     ]
   },
@@ -1619,6 +1779,13 @@
         "includeConfig": 0
       },
       "target": "Melee Man  - Enemy"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Lantern Leach - Enemy"
     }
   ],
   "layers": [

@@ -1,6 +1,6 @@
 {
   "associatedLayout": "main_scene",
-  "name": "sounds",
+  "name": "music",
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -14,12 +14,6 @@
             "=",
             "1"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -29,7 +23,7 @@
           },
           "parameters": [
             "",
-            "old_start.mp3",
+            "old_start2.mp3",
             "2",
             "yes",
             "25",

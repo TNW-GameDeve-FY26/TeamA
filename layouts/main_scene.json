@@ -1681,6 +1681,13 @@
         "includeConfig": 0
       },
       "target": "Level 2"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "music"
     }
   ],
   "layers": [

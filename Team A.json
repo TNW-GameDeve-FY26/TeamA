@@ -454,6 +454,16 @@
         "name": "NewTiledSprite11",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "old_start2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "old_start2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -550,6 +560,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music"
     }
   ],
   "eventsFunctionsExtensions": [

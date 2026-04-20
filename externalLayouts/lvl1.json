@@ -40,23 +40,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "player_obj",
-      "persistentUuid": "b075faad-6ba3-4c40-a3a0-8757e5b3da52",
-      "width": 64,
-      "x": 416,
-      "y": 768,
-      "zOrder": 79,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 864,
       "keepRatio": true,
       "layer": "",
@@ -1167,6 +1150,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "player_obj",
+      "persistentUuid": "27c46165-18f5-438b-969c-c1335d33219b",
+      "width": 0,
+      "x": 384,
+      "y": 704,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1181,7 +1180,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5145265746872523,
+    "zoomFactor": 0.648976862626171,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

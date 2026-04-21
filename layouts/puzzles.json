@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3411856023473498,
+    "zoomFactor": 0.47535850871270163,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -43,8 +43,8 @@
       "layer": "",
       "name": "maze_wall_obj",
       "persistentUuid": "2eef8e69-f9d2-4cea-951a-7d764186126a",
-      "width": 576,
-      "x": 1920,
+      "width": 736,
+      "x": 1760,
       "y": -64,
       "zOrder": 1,
       "numberProperties": [],
@@ -191,7 +191,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 192,
+      "height": 256,
       "keepRatio": true,
       "layer": "",
       "name": "maze_wall_obj",
@@ -223,13 +223,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "maze_wall_obj",
       "persistentUuid": "4c148e42-2a05-4f3a-9ba4-8af199533a40",
-      "width": 0,
+      "width": 128,
       "x": 224,
       "y": 192,
       "zOrder": 11,
@@ -373,13 +374,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "maze_wall_obj",
       "persistentUuid": "69283adc-26d1-49aa-b8a6-502d047744dc",
-      "width": 0,
+      "width": 64,
       "x": 1152,
       "y": 320,
       "zOrder": 20,
@@ -919,8 +921,8 @@
       "layer": "",
       "name": "maze_wall_obj",
       "persistentUuid": "9974a0dd-ff08-48e1-b597-994789e6fc84",
-      "width": 64,
-      "x": 512,
+      "width": 32,
+      "x": 544,
       "y": 416,
       "zOrder": 50,
       "numberProperties": [],
@@ -1022,7 +1024,7 @@
       "persistentUuid": "0a949bf1-209e-4e56-a2a8-26f36b097980",
       "width": 0,
       "x": 896,
-      "y": 480,
+      "y": 512,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -1136,12 +1138,62 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "maze_player_sprint",
-      "persistentUuid": "418e08d0-aa19-431a-ac9d-766502aff9e2",
+      "name": "maze_wall_obj",
+      "persistentUuid": "25daa03f-4b83-4694-814e-9a91569a1abb",
       "width": 0,
+      "x": 896,
+      "y": 128,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_wall_obj",
+      "persistentUuid": "7a8dd8f4-039d-4ae3-a41a-b91a0a503092",
+      "width": 0,
+      "x": 1280,
+      "y": 480,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "61d7c8a2-e8c8-4104-9386-2a989ab3d83b",
+      "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 64,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "maze_player_sprint",
+      "persistentUuid": "d0550174-6a1c-4984-8963-781b43b5d15e",
+      "width": 64,
+      "x": 0,
+      "y": 0,
+      "zOrder": 72,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1157,7 +1209,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
       "animations": [
         {
           "name": "maze_player_sprint",
@@ -1170,7 +1228,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "maze_player_sprint",
+                  "image": "maze_player_sprint2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1186,82 +1244,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 7,
+                        "y": 5
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 103,
+                        "y": 5
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 103,
+                        "y": 122
                       },
                       {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "maze_wall_obj",
-      "persistentUuid": "9a130b97-25fc-4e21-8287-01ff5c702817",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "maze_wall_obj",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "maze_wall_obj",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
+                        "x": 7,
+                        "y": 122
                       }
                     ]
                   ]
@@ -1294,7 +1290,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "won_obj",
+                  "image": "won_obj2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1310,20 +1306,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 16
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 53,
+                        "y": 16
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 53,
+                        "y": 58
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 11,
+                        "y": 58
                       }
                     ]
                   ]
@@ -1333,6 +1329,30 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "persistentUuid": "87c3a0a3-5010-4743-8b0c-41b49f291c46",
+      "texture": "Mossy_Bricks_Obj",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "maze_wall_obj",
+      "persistentUuid": "66d16d57-a172-4939-a2d4-3cc8dc48cb16",
+      "texture": "NewTiledSprite15",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1342,10 +1362,13 @@
         "objectName": "maze_player_sprint"
       },
       {
-        "objectName": "maze_wall_obj"
+        "objectName": "win_obj"
       },
       {
-        "objectName": "win_obj"
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "maze_wall_obj"
       }
     ]
   },
@@ -1449,6 +1472,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
     }
   ]
 }

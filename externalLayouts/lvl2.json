@@ -543,22 +543,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "puzzle_block_obj",
-      "persistentUuid": "c1c671a4-1cb1-49f9-ae72-bd42dac13653",
-      "width": 0,
-      "x": 4128,
-      "y": -32,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 1216,
@@ -961,6 +945,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "puzzle_Lvl2_obj",
+      "persistentUuid": "8ac2dc03-4095-4bf7-b74b-76dcf5eff0ba",
+      "width": 0,
+      "x": 4128,
+      "y": -32,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -975,7 +975,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.09675524297022209,
+    "zoomFactor": 0.20069741314550021,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

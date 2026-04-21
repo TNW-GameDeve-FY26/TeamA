@@ -520,6 +520,102 @@
         "name": "player_obj5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite12.png\"}",
+        "name": "NewTiledSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mossy_Bricks_Obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Mossy_Bricks_Obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Maze_Player_Sprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Maze_Player_Sprite.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/maze_player_sprint2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/maze_player_sprint2.png\"}",
+        "name": "maze_player_sprint2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/won_obj2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "won_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite16.png\"}",
+        "name": "NewTiledSprite16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bridge Up.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bridge Up",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bridge Up2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Bridge Up2.png\"}",
+        "name": "Bridge Up2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Puzzle_Lvl2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Puzzle_Lvl2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -642,6 +738,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
     }
   ],
   "externalLayouts": [

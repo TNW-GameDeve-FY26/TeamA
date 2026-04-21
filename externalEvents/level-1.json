@@ -24,6 +24,15 @@
           "parameters": [
             "Water_Diss_Obj"
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Bridge_OBJ",
+            ""
+          ]
         }
       ]
     }

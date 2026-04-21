@@ -22,7 +22,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "puzzle_block_obj",
+            "puzzle_Lvl1_obj",
             ""
           ]
         }

@@ -391,6 +391,63 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasNoForces"
+          },
+          "parameters": [
+            "maze_player_sprint"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::StopShaking"
+          },
+          "parameters": [
+            "maze_player_sprint",
+            "ShakeObject_PositionAngle",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "HasNoForces"
+          },
+          "parameters": [
+            "maze_player_sprint"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "maze_player_sprint",
+            "ShakeObject_PositionAngle",
+            "0",
+            "2",
+            "2",
+            "5",
+            "0.08",
+            "yes",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }

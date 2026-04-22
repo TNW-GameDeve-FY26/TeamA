@@ -478,6 +478,22 @@
         "name": "Text_Box2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Side_Char_Sprite1.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Side_Char_Sprite1.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial_placeholder2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tutorial_placeholder2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

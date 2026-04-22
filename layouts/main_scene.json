@@ -1395,7 +1395,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Tutorial_placeholder",
+                  "image": "Tutorial_placeholder2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1411,20 +1411,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 6
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 109,
+                        "y": 6
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 109,
+                        "y": 230
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 9,
+                        "y": 230
                       }
                     ]
                   ]

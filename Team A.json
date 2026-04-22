@@ -494,6 +494,46 @@
         "name": "Tutorial_placeholder2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Tree_Sprite_Prototype.webp",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Tree_Sprite_Prototype.webp\",\"extension\":\".png\"}",
+        "name": "Tree_Sprite_Prototype.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tree_Sprite_Prototype.webp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Tree_Sprite_Prototype.webp2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/forest_obj2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "forest_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Tree_Sprite_Prototype2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree_Sprite_Prototype2.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Tree_Sprite_Prototype3.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree_Sprite_Prototype3.webp",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

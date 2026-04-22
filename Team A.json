@@ -504,6 +504,7 @@
         "name": "player_obj3",
         "smoothed": true,
         "userAdded": false
+<<<<<<< HEAD
       },
       {
         "file": "assets/player_obj4.png",
@@ -520,6 +521,8 @@
         "name": "player_obj5",
         "smoothed": true,
         "userAdded": false
+=======
+>>>>>>> parent of a0288ee (Second Enemy - Complete)
       }
     ]
   },
@@ -615,11 +618,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+<<<<<<< HEAD
       "referenceTo": "/externalEvents/level-2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/music"
+=======
+      "referenceTo": "/externalEvents/melee-man----enemy"
+>>>>>>> parent of a0288ee (Second Enemy - Complete)
     }
   ],
   "eventsFunctionsExtensions": [

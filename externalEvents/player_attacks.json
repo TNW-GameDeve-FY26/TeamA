@@ -179,34 +179,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "pulse_wave_obj",
-                "bullet_obj",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "bullet_obj",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "parameters": []
@@ -242,17 +214,6 @@
               "parameters": [
                 "",
                 "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "player_obj",
-                "melee_attack",
-                "False",
-                ""
               ]
             }
           ],

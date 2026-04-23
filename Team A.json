@@ -384,7 +384,6 @@
         "userAdded": false
       },
       {
-      {
         "file": "concept.png",
         "kind": "image",
         "metadata": "",
@@ -539,11 +538,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/lantern-leach---enemy"
-      "referenceTo": "/externalEvents/level-2"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/music"
     }
   ],
   "eventsFunctionsExtensions": [
@@ -562,10 +556,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
     }
   ],
   "externalLayouts": [
@@ -584,10 +574,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl1"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/lvl2"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "associatedLayout": "main_scene",
-  "name": "Melee Man  - Enemy",
+  "name": "melee-man---enemy",
   "events": [
     {
       "type": "BuiltinCommonInstructions::Comment",

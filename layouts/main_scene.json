@@ -1778,14 +1778,14 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "Melee Man  - Enemy"
+      "target": "melee-man---enemy"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
-      "target": "Lantern Leach - Enemy"
+      "target": "lantern-leach---enemy"
     }
   ],
   "layers": [

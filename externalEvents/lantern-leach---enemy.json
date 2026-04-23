@@ -1,6 +1,6 @@
 {
   "associatedLayout": "main_scene",
-  "name": "Lantern Leach - Enemy",
+  "name": "lantern-leach---enemy",
   "events": [
     {
       "type": "BuiltinCommonInstructions::Comment",

@@ -620,6 +620,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/music"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lantern-leach---enemy-json"
     }
   ],
   "eventsFunctionsExtensions": [

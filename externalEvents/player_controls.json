@@ -68,7 +68,7 @@
           "parameters": [
             "player_obj",
             "Flippable",
-            "no"
+            "yes"
           ]
         }
       ],
@@ -184,7 +184,7 @@
           "parameters": [
             "player_obj",
             "Flippable",
-            "yes"
+            "no"
           ]
         }
       ],

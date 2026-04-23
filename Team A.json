@@ -623,7 +623,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/lantern-leach---enemy-json"
+      "referenceTo": "/externalEvents/lantern-leach---enemy"
     }
   ],
   "eventsFunctionsExtensions": [

@@ -1688,6 +1688,18 @@
         "includeConfig": 0
       },
       "target": "music"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "lantern-leach---enemy"
     }
   ],
   "layers": [

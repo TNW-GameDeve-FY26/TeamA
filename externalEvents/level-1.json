@@ -26,29 +26,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "obj_barrier"
-          ]
-        }
-      ]
     }
   ]
 }

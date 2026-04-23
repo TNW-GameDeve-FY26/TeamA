@@ -20,11 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-<<<<<<< HEAD
     "zoomFactor": 0.4027225833325921,
-=======
-    "zoomFactor": 0.22916801610748827,
->>>>>>> main
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -84,14 +80,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 1079,
       "keepRatio": true,
       "layer": "",
-      "name": "background_img",
-      "persistentUuid": "75dd752a-8c0a-4eaa-aec6-537caca69985",
-      "width": 1921,
-      "x": 0,
-      "y": 0,
+      "name": "home_screen_background_obj",
+      "persistentUuid": "20cdd4ea-f97a-4c7b-8e3a-9bdebdffc605",
+      "width": 1932,
+      "x": -13,
+      "y": 2,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -231,8 +227,8 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "background_img",
-      "persistentUuid": "c69fead9-e1a6-4776-988a-6791b274e372",
+      "name": "home_screen_background_obj",
+      "persistentUuid": "a60a1339-ee19-4479-9169-02edb0f15147",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -303,7 +299,7 @@
         "objectName": "game_quit_txt"
       },
       {
-        "objectName": "background_img"
+        "objectName": "home_screen_background_obj"
       }
     ]
   },

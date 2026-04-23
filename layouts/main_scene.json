@@ -93,7 +93,7 @@
   "instances": [],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "player_obj",
       "persistentUuid": "9c5816ed-00ee-457f-8e55-ac2d4c9329d3",
@@ -183,18 +183,18 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_obj5",
+                  "image": "player_obj",
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": -3,
-                      "y": 68
+                      "x": 93.5,
+                      "y": 31
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 49,
-                    "y": 64
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -205,20 +205,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 38.5
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 76.5,
-                        "y": 38.5
+                        "x": 64,
+                        "y": 0
                       },
                       {
-                        "x": 75,
-                        "y": 115.5
+                        "x": 64,
+                        "y": 64
                       },
                       {
-                        "x": 10.5,
-                        "y": 111
+                        "x": 0,
+                        "y": 64
                       }
                     ]
                   ]
@@ -1242,31 +1242,10 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Path_Lvl2_Obj",
-      "texture": "Path_Lvl2_Obj",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Stone_Wall_Lvl2Obj",
-      "texture": "NewTiledSprite8",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Enemy_Placeholder",
+      "name": "obj_big_rock_one",
+      "persistentUuid": "3eb332fb-f94e-4885-adcb-da1255483de7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1274,17 +1253,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "big_rock_one2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1300,20 +1278,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 54,
+                        "y": 144
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 969,
+                        "y": 144
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 969,
+                        "y": 969
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 54,
+                        "y": 969
                       }
                     ]
                   ]
@@ -1325,7 +1303,6 @@
       ]
     },
     {
-<<<<<<< HEAD
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Obj_Melee_Man___Enemy",
@@ -1559,101 +1536,12 @@
           ]
         }
       ]
-=======
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Trigger_Obj_1",
-      "texture": "Trigger_Obj_1",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Trigger_Obj_2",
-      "persistentUuid": "de988dc8-bec3-44c1-9967-bdeece397a22",
-      "texture": "NewTiledSprite9",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 1000,
-      "name": "StoneWallAdded_Obj",
-      "texture": "NewTiledSprite11",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 1590,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Stone_Wall_Disapear",
-      "texture": "NewTiledSprite8",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "Temp_End_Text",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Hey you! Your not supposed to be here! or, your playing on browser and we havent fixed the thing, anways, you got to the end of the level ",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Hey you! Your not supposed to be here! or, your playing on browser and we havent fixed the thing, anways, you got to the end of the level ",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
->>>>>>> main
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-<<<<<<< HEAD
         "folderName": "Enemies",
         "children": [
           {
@@ -1661,33 +1549,6 @@
           },
           {
             "objectName": "Obj_Lantern_Leach_Enemy"
-=======
-        "folderName": "Level 2 stuff",
-        "children": [
-          {
-            "objectName": "Temp_End_Text"
-          },
-          {
-            "objectName": "Trigger_Obj_1"
-          },
-          {
-            "objectName": "Trigger_Obj_2"
-          },
-          {
-            "objectName": "StoneWallAdded_Obj"
-          },
-          {
-            "objectName": "Stone_Wall_Disapear"
-          },
-          {
-            "objectName": "Enemy_Placeholder"
-          },
-          {
-            "objectName": "Stone_Wall_Lvl2Obj"
-          },
-          {
-            "objectName": "Path_Lvl2_Obj"
->>>>>>> main
           }
         ]
       },
@@ -1695,19 +1556,34 @@
         "folderName": "Level 1 stuff",
         "children": [
           {
-            "objectName": "bullet_obj"
+            "objectName": "enemy_obj"
           },
           {
             "objectName": "small_rock_one"
           },
           {
-            "objectName": "enemy_obj"
+            "objectName": "level_win_obj"
           },
           {
             "objectName": "forest_obj"
           },
           {
+            "objectName": "puzzle_block_obj"
+          },
+          {
+            "objectName": "collision_wall_obj"
+          },
+          {
+            "objectName": "melee_hitbox_obj"
+          },
+          {
             "objectName": "pulse_wave_obj"
+          },
+          {
+            "objectName": "bullet_obj"
+          },
+          {
+            "objectName": "player_obj"
           },
           {
             "objectName": "Path_Obj"
@@ -1720,26 +1596,14 @@
           },
           {
             "objectName": "Bridge_OBJ"
+          },
+          {
+            "objectName": "obj_barrier"
+          },
+          {
+            "objectName": "obj_big_rock_one"
           }
         ]
-      },
-      {
-        "objectName": "player_obj"
-      },
-      {
-        "objectName": "puzzle_block_obj"
-      },
-      {
-        "objectName": "level_win_obj"
-      },
-      {
-        "objectName": "collision_wall_obj"
-      },
-      {
-        "objectName": "obj_barrier"
-      },
-      {
-        "objectName": "melee_hitbox_obj"
       },
       {
         "folderName": "UI",
@@ -1889,66 +1753,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "level",
-            "=",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"Lvl2\"",
-            "0",
-            "0",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "level",
-            "=",
-            "3"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Quit"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -1974,22 +1778,14 @@
       "include": {
         "includeConfig": 0
       },
-<<<<<<< HEAD
       "target": "Melee Man  - Enemy"
-=======
-      "target": "Level 2"
->>>>>>> main
     },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
-<<<<<<< HEAD
       "target": "Lantern Leach - Enemy"
-=======
-      "target": "music"
->>>>>>> main
     }
   ],
   "layers": [

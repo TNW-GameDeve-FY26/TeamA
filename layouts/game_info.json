@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.187817328805304,
+    "zoomFactor": 0.12203823303706747,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -64,14 +64,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1081,
+      "height": 1080,
       "keepRatio": true,
       "layer": "",
-      "name": "game_info_background_obj",
-      "persistentUuid": "f8b5f77e-3b2b-4722-ad9d-84bc1fba09e0",
-      "width": 1914,
-      "x": 3,
-      "y": -2,
+      "name": "background_img",
+      "persistentUuid": "a9406982-828e-4cd6-98be-38c6a642447d",
+      "width": 1921,
+      "x": 0,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -168,8 +168,8 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "game_info_background_obj",
-      "persistentUuid": "daadefc8-9183-4575-ba2b-07abf79040cf",
+      "name": "background_img",
+      "persistentUuid": "273f030c-5e93-48cc-ad01-f905991ded0a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -237,7 +237,7 @@
         "objectName": "menu_return_txt"
       },
       {
-        "objectName": "game_info_background_obj"
+        "objectName": "background_img"
       }
     ]
   },

@@ -384,6 +384,88 @@
         "userAdded": false
       },
       {
+        "file": "assets/Path_Lvl2_Obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Path_Lvl2_Obj.png\"}",
+        "name": "Path_Lvl2_Obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite8.png\"}",
+        "name": "NewTiledSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/St.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "St",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite9.png\"}",
+        "name": "NewTiledSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trigger_Obj_1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Trigger_Obj_1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "old_start2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "old_start2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
         "file": "concept.png",
         "kind": "image",
         "metadata": "",
@@ -400,42 +482,42 @@
         "userAdded": false
       },
       {
-        "file": "big_rock_one.png",
+        "file": "Main_Charactor_Sprite.png",
         "kind": "image",
         "metadata": "",
-        "name": "big_rock_one.png",
+        "name": "Main_Charactor_Sprite.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "big_rock_one2.png",
+        "file": "assets/player_obj2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "big_rock_one2.png",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/player_obj2.png\"}",
+        "name": "player_obj2",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite9.png",
+        "file": "assets/player_obj3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
+        "name": "player_obj3",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite10.png",
+        "file": "assets/player_obj4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
+        "name": "player_obj4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_obj5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_obj5",
         "smoothed": true,
         "userAdded": false
       }
@@ -533,7 +615,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/melee-man---enemy"
+      "referenceTo": "/externalEvents/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -556,6 +642,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
     }
   ],
   "externalLayouts": [
@@ -574,6 +664,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/lvl2"
     }
   ]
 }

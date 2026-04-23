@@ -1,0 +1,288 @@
+{
+  "associatedLayout": "main_scene",
+  "name": "Lantern Leach - Enemy",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "At Beginning of Scene"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "Obj_Lantern_Leech_Hitbox",
+            "=",
+            "Obj_Lantern_Leach_Enemy.X()",
+            "=",
+            "Obj_Lantern_Leach_Enemy.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Obj_Lantern_Leech_Hitbox"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Attacking"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "Is_Attacking_Leech",
+            "=",
+            "\"True\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "Obj_Lantern_Leech_Hitbox",
+            "player_obj.X()",
+            "player_obj.Y()",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "Obj_Lantern_Leech_Hitbox",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"ConeDuration\"",
+            ">=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Obj_Lantern_Leech_Hitbox"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "Is_Attacking_Leech",
+            "=",
+            "\"False\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "Is_Attacking_Leech",
+            "=",
+            "\"True\""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "HasHit_Leech",
+            "=",
+            "\"False\""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_obj",
+            "Obj_Lantern_Leech_Hitbox",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "health_bar",
+            "health_amount",
+            "-",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "HasHit_Leech",
+            "=",
+            "\"True\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "player_obj",
+            "Obj_Lantern_Leech_Hitbox",
+            "200",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "Is_Attacking_Leech",
+            "=",
+            "\"False\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "Is_Attacking_Leech",
+            "=",
+            "\"True\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"ConeDuration\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "HasHit_Leech",
+            "=",
+            "\"False\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "health_bar",
+            "health_amount",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "player_obj",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

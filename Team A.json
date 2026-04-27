@@ -384,26 +384,34 @@
         "userAdded": false
       },
       {
-        "file": "assets/Path_Lvl2_Obj.png",
+        "file": "concept.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Path_Lvl2_Obj.png\"}",
-        "name": "Path_Lvl2_Obj",
+        "metadata": "",
+        "name": "concept.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite8.png",
+        "file": "concept2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite8.png\"}",
-        "name": "NewTiledSprite8",
+        "metadata": "",
+        "name": "concept2.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/St.png",
+        "file": "big_rock_one.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "St",
+        "metadata": "",
+        "name": "big_rock_one.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "big_rock_one2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "big_rock_one2.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -416,122 +424,18 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite9.png\"}",
-        "name": "NewTiledSprite9",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Trigger_Obj_1.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Trigger_Obj_1",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/New image.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite10",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite11",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Tutorial_placeholder.png",
+        "file": "assets/NewSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Tutorial_placeholder",
+        "name": "NewSprite4",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Text_Box.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Text_Box.png\"}",
-        "name": "Text_Box",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Text_Box2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Text_Box2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Side_Char_Sprite1.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "Side_Char_Sprite1.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Tutorial_placeholder2.png",
+        "file": "assets/NewSprite10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Tutorial_placeholder2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Tree_Sprite_Prototype.webp",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Tree_Sprite_Prototype.webp\",\"extension\":\".png\"}",
-        "name": "Tree_Sprite_Prototype.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Tree_Sprite_Prototype.webp2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Tree_Sprite_Prototype.webp2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/forest_obj2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "forest_obj2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Tree_Sprite_Prototype2.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tree_Sprite_Prototype2.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Tree_Sprite_Prototype3.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tree_Sprite_Prototype3.webp",
+        "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
       }
@@ -629,11 +533,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/level-2"
+      "referenceTo": "/externalEvents/melee-man---enemy"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/charactor_dialog"
+      "referenceTo": "/externalEvents/lantern-leach---enemy"
     }
   ],
   "eventsFunctionsExtensions": [
@@ -652,14 +556,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/autotyping"
     }
   ],
   "externalLayouts": [
@@ -678,10 +574,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl1"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/lvl2"
     }
   ]
 }

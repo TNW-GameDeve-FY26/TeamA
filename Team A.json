@@ -516,7 +516,7 @@
       {
         "file": "assets/player_obj5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/player_obj5.png\"}",
         "name": "player_obj5",
         "smoothed": true,
         "userAdded": false
@@ -556,7 +556,7 @@
       {
         "file": "assets/Mossy_Bricks_Obj.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Mossy_Bricks_Obj.png\"}",
         "name": "Mossy_Bricks_Obj",
         "smoothed": true,
         "userAdded": false

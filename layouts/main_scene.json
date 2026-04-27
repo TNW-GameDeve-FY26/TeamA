@@ -43,12 +43,57 @@
       "name": "movement_speed",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Melee_Man_Health",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Melee_Man_Damage",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "name": "Melee_Man_AttackRange",
+      "type": "number",
+      "value": 80
+    },
+    {
+      "name": "Is_Attacking",
+      "type": "string",
+      "value": "True"
+    },
+    {
+      "name": "Is_Attacking_Leech",
+      "type": "string",
+      "value": "True"
+    },
+    {
+      "name": "AttackRange_Leech",
+      "type": "number",
+      "value": 250
+    },
+    {
+      "name": "Damage_Leech",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "name": "CanSeePlayer",
+      "type": "string",
+      "value": "Yes"
+    },
+    {
+      "name": "HasHit_Leech",
+      "type": "string",
+      "value": "False"
     }
   ],
   "instances": [],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "player_obj",
       "persistentUuid": "9c5816ed-00ee-457f-8e55-ac2d4c9329d3",
@@ -138,18 +183,18 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_obj5",
+                  "image": "player_obj",
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": -3,
-                      "y": 68
+                      "x": 93.5,
+                      "y": 31
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 49,
-                    "y": 64
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -160,20 +205,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 38.5
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 76.5,
-                        "y": 38.5
+                        "x": 64,
+                        "y": 0
                       },
                       {
-                        "x": 75,
-                        "y": 115.5
+                        "x": 64,
+                        "y": 64
                       },
                       {
-                        "x": 10.5,
-                        "y": 111
+                        "x": 0,
+                        "y": 64
                       }
                     ]
                   ]
@@ -1197,36 +1242,114 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Path_Lvl2_Obj",
-      "texture": "Path_Lvl2_Obj",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Stone_Wall_Lvl2Obj",
-      "texture": "NewTiledSprite8",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Enemy_Placeholder",
+      "name": "obj_big_rock_one",
+      "persistentUuid": "3eb332fb-f94e-4885-adcb-da1255483de7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "big_rock_one2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 54,
+                        "y": 144
+                      },
+                      {
+                        "x": 969,
+                        "y": 144
+                      },
+                      {
+                        "x": 969,
+                        "y": 969
+                      },
+                      {
+                        "x": 54,
+                        "y": 969
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Obj_Melee_Man___Enemy",
+      "persistentUuid": "dd9dcd10-646c-4566-8f66-1ac62779ad15",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 50
+        },
+        {
+          "name": "AttackRange",
+          "type": "number",
+          "value": 80
+        },
+        {
+          "name": "IsAttacking",
+          "type": "string",
+          "value": "False"
+        },
+        {
+          "name": "IsOnCooldown",
+          "type": "string",
+          "value": "False"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -1276,165 +1399,15 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Trigger_Obj_1",
-      "texture": "Trigger_Obj_1",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Trigger_Obj_2",
-      "persistentUuid": "de988dc8-bec3-44c1-9967-bdeece397a22",
-      "texture": "NewTiledSprite9",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 1000,
-      "name": "StoneWallAdded_Obj",
-      "texture": "NewTiledSprite11",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 1590,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Stone_Wall_Disapear",
-      "texture": "NewTiledSprite8",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "Temp_End_Text",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Hey you! Your not supposed to be here! or, your playing on browser and we havent fixed the thing, anways, you got to the end of the level ",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Hey you! Your not supposed to be here! or, your playing on browser and we havent fixed the thing, anways, you got to the end of the level ",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "boss_obj",
-      "persistentUuid": "f37ffead-6aed-44f1-af50-7a4899c8edf7",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
+        },
         {
-          "name": "where_to_move",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "boss_obj",
+          "name": "Attacking",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "boss_obj2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 62.5,
-                    "y": 62.5
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 125,
-                        "y": 0
-                      },
-                      {
-                        "x": 125,
-                        "y": 125
-                      },
-                      {
-                        "x": 0,
-                        "y": 125
-                      }
-                    ]
-                  ]
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1443,100 +1416,16 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "topl_twn",
-      "persistentUuid": "55b2f981-d9ca-4237-90e1-ca882e00b1f5",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "topl_twn",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "topl_twn",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "persistentUuid": "52c96298-9ed4-48b5-b218-21407c94ec92",
+      "name": "Obj_Lantern_Leach_Enemy",
+      "persistentUuid": "fa220e64-00b1-4c45-9e2a-f810dfdec058",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "topr_twn",
-      "persistentUuid": "b5a2f3ed-50dd-4ba2-a084-470a6c915e83",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
       "animations": [
         {
-          "name": "topr_twn",
+          "name": "NewSprite",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1546,7 +1435,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "topr_twn",
+                  "image": "NewSprite4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1589,21 +1478,16 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "bottoml_twn",
-      "persistentUuid": "7f08c15a-9014-4145-b848-2e31ff285683",
+      "name": "Obj_Lantern_Leech_Hitbox",
+      "persistentUuid": "cf41e349-f850-459d-8494-32139cc8402d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "bottoml_twn",
+          "name": "NewSprite",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1613,170 +1497,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bottoml_twn",
+                  "image": "NewSprite5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 44.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 33
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 12,
+                        "y": 17
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 56,
+                        "y": 17
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 56,
+                        "y": 45
                       },
                       {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "bottomr_twn",
-      "persistentUuid": "98fbae1e-e747-48f6-a2b6-c325dbb7682e",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "bottomr_twn",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "bottomr_twn",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "center_twn",
-      "persistentUuid": "d0e08eca-5d16-4c18-b943-c5ec05436953",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "center_twn",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "center_twn",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
+                        "x": 12,
+                        "y": 45
                       }
                     ]
                   ]
@@ -1792,59 +1542,13 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "folderName": "boss fight",
+        "folderName": "Enemies",
         "children": [
           {
-            "objectName": "boss_obj"
+            "objectName": "Obj_Melee_Man___Enemy"
           },
           {
-            "folderName": "Tweens",
-            "children": [
-              {
-                "objectName": "topl_twn"
-              },
-              {
-                "objectName": "topr_twn"
-              },
-              {
-                "objectName": "bottoml_twn"
-              },
-              {
-                "objectName": "bottomr_twn"
-              },
-              {
-                "objectName": "center_twn"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "folderName": "Level 2 stuff",
-        "children": [
-          {
-            "objectName": "Temp_End_Text"
-          },
-          {
-            "objectName": "Trigger_Obj_1"
-          },
-          {
-            "objectName": "Trigger_Obj_2"
-          },
-          {
-            "objectName": "StoneWallAdded_Obj"
-          },
-          {
-            "objectName": "Stone_Wall_Disapear"
-          },
-          {
-            "objectName": "Enemy_Placeholder"
-          },
-          {
-            "objectName": "Stone_Wall_Lvl2Obj"
-          },
-          {
-            "objectName": "Path_Lvl2_Obj"
+            "objectName": "Obj_Lantern_Leach_Enemy"
           }
         ]
       },
@@ -1852,19 +1556,34 @@
         "folderName": "Level 1 stuff",
         "children": [
           {
-            "objectName": "bullet_obj"
+            "objectName": "enemy_obj"
           },
           {
             "objectName": "small_rock_one"
           },
           {
-            "objectName": "enemy_obj"
+            "objectName": "level_win_obj"
           },
           {
             "objectName": "forest_obj"
           },
           {
+            "objectName": "puzzle_block_obj"
+          },
+          {
+            "objectName": "collision_wall_obj"
+          },
+          {
+            "objectName": "melee_hitbox_obj"
+          },
+          {
             "objectName": "pulse_wave_obj"
+          },
+          {
+            "objectName": "bullet_obj"
+          },
+          {
+            "objectName": "player_obj"
           },
           {
             "objectName": "Path_Obj"
@@ -1877,26 +1596,14 @@
           },
           {
             "objectName": "Bridge_OBJ"
+          },
+          {
+            "objectName": "obj_barrier"
+          },
+          {
+            "objectName": "obj_big_rock_one"
           }
         ]
-      },
-      {
-        "objectName": "player_obj"
-      },
-      {
-        "objectName": "puzzle_block_obj"
-      },
-      {
-        "objectName": "level_win_obj"
-      },
-      {
-        "objectName": "collision_wall_obj"
-      },
-      {
-        "objectName": "obj_barrier"
-      },
-      {
-        "objectName": "melee_hitbox_obj"
       },
       {
         "folderName": "UI",
@@ -1919,7 +1626,7 @@
         ]
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "Obj_Lantern_Leech_Hitbox"
       }
     ]
   },
@@ -2046,66 +1753,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "level",
-            "=",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"Lvl2\"",
-            "0",
-            "0",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "level",
-            "=",
-            "3"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Quit"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -2131,21 +1778,14 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "Level 2"
+      "target": "melee-man---enemy"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
-      "target": "music"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "boss_fight"
+      "target": "lantern-leach---enemy"
     }
   ],
   "layers": [
@@ -2291,6 +1931,10 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
@@ -2305,10 +1949,6 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "Tween",
-      "type": "Tween::TweenBehavior"
     }
   ]
 }

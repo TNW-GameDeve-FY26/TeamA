@@ -642,6 +642,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/lantern-leach---enemy"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lvl3"
     }
   ],
   "eventsFunctionsExtensions": [

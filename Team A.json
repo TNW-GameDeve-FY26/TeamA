@@ -398,6 +398,7 @@
         "name": "concept2.png",
         "smoothed": true,
         "userAdded": false
+<<<<<<< HEAD
       },
       {
         "file": "big_rock_one.png",
@@ -438,6 +439,8 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
+=======
+>>>>>>> parent of 97a43fa (boss movement)
       }
     ]
   },
@@ -537,7 +540,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+<<<<<<< HEAD
       "referenceTo": "/externalEvents/lantern-leach---enemy"
+=======
+      "referenceTo": "/externalEvents/music"
+>>>>>>> parent of 97a43fa (boss movement)
     }
   ],
   "eventsFunctionsExtensions": [

@@ -1399,6 +1399,7 @@
               ]
             }
           ]
+<<<<<<< HEAD
         },
         {
           "name": "Attacking",
@@ -1410,10 +1411,13 @@
               "sprites": []
             }
           ]
+=======
+>>>>>>> parent of 97a43fa (boss movement)
         }
       ]
     },
     {
+<<<<<<< HEAD
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Obj_Lantern_Leach_Enemy",
@@ -1536,12 +1540,101 @@
           ]
         }
       ]
+=======
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Trigger_Obj_1",
+      "texture": "Trigger_Obj_1",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Trigger_Obj_2",
+      "persistentUuid": "de988dc8-bec3-44c1-9967-bdeece397a22",
+      "texture": "NewTiledSprite9",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 1000,
+      "name": "StoneWallAdded_Obj",
+      "texture": "NewTiledSprite11",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1590,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Stone_Wall_Disapear",
+      "texture": "NewTiledSprite8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Temp_End_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hey you! Your not supposed to be here! or, your playing on browser and we havent fixed the thing, anways, you got to the end of the level ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hey you! Your not supposed to be here! or, your playing on browser and we havent fixed the thing, anways, you got to the end of the level ",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+>>>>>>> parent of 97a43fa (boss movement)
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+<<<<<<< HEAD
         "folderName": "Enemies",
         "children": [
           {
@@ -1549,6 +1642,33 @@
           },
           {
             "objectName": "Obj_Lantern_Leach_Enemy"
+=======
+        "folderName": "Level 2 stuff",
+        "children": [
+          {
+            "objectName": "Temp_End_Text"
+          },
+          {
+            "objectName": "Trigger_Obj_1"
+          },
+          {
+            "objectName": "Trigger_Obj_2"
+          },
+          {
+            "objectName": "StoneWallAdded_Obj"
+          },
+          {
+            "objectName": "Stone_Wall_Disapear"
+          },
+          {
+            "objectName": "Enemy_Placeholder"
+          },
+          {
+            "objectName": "Stone_Wall_Lvl2Obj"
+          },
+          {
+            "objectName": "Path_Lvl2_Obj"
+>>>>>>> parent of 97a43fa (boss movement)
           }
         ]
       },
@@ -1624,9 +1744,12 @@
             "objectName": "exit_game_txt"
           }
         ]
+<<<<<<< HEAD
       },
       {
         "objectName": "Obj_Lantern_Leech_Hitbox"
+=======
+>>>>>>> parent of 97a43fa (boss movement)
       }
     ]
   },
@@ -1785,7 +1908,11 @@
       "include": {
         "includeConfig": 0
       },
+<<<<<<< HEAD
       "target": "lantern-leach---enemy"
+=======
+      "target": "music"
+>>>>>>> parent of 97a43fa (boss movement)
     }
   ],
   "layers": [

@@ -534,6 +534,86 @@
         "name": "Tree_Sprite_Prototype3.webp",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "concept3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "concept4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bottonl_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bottonl_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bottomr_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bottomr_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topl_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topl_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/center_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/center_twn.png\"}",
+        "name": "center_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topr_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topr_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/boss_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "boss_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -702,6 +782,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/boss_fight"
     }
   ]
 }

@@ -654,6 +654,30 @@
         "name": "NewTiledSprite14",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/lvl3_floor_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/lvl3_floor_obj.png\"}",
+        "name": "lvl3_floor_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl3_room_cover_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lvl3_room_cover_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl3_hidden_path_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lvl3_hidden_path_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

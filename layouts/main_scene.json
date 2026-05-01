@@ -36,6 +36,14 @@
           "name": "melee_hitbox_obj"
         }
       ]
+    },
+    {
+      "name": "doors",
+      "objects": [
+        {
+          "name": "lvl3_hidden_path_obj"
+        }
+      ]
     }
   ],
   "variables": [
@@ -1206,6 +1214,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Path_Lvl2_Obj",
+      "persistentUuid": "304d7ff0-54db-474c-8111-b13eebe03cda",
       "texture": "Path_Lvl2_Obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1323,6 +1332,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Stone_Wall_Disapear",
+      "persistentUuid": "7e912e21-20cc-4e4f-be0c-474d756b5d11",
       "texture": "NewTiledSprite8",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -2473,13 +2483,138 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "Lvl3_TiledSprite",
-      "texture": "NewTiledSprite14",
+      "name": "lvl3_floor_obj",
+      "persistentUuid": "a820ab3a-427f-4aee-b915-b155a9423dd1",
+      "texture": "lvl3_floor_obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lvl3_room_cover_obj",
+      "persistentUuid": "8791a8ed-717e-466c-b1f0-5df86dcdf5a6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "lvl3_room_cover_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lvl3_room_cover_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lvl3_hidden_path_obj",
+      "persistentUuid": "5acba979-80f9-455f-8b55-171fb634d18c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "lvl3_hidden_path_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lvl3_hidden_path_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2493,6 +2628,15 @@
           },
           {
             "objectName": "lvl3_wall_obj"
+          },
+          {
+            "objectName": "lvl3_hidden_path_obj"
+          },
+          {
+            "objectName": "lvl3_floor_obj"
+          },
+          {
+            "objectName": "lvl3_room_cover_obj"
           }
         ]
       },
@@ -2669,9 +2813,6 @@
             "objectName": "Text_End4_Lvl2"
           }
         ]
-      },
-      {
-        "objectName": "Lvl3_TiledSprite"
       }
     ]
   },
@@ -2844,14 +2985,24 @@
             "=",
             "3"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
           },
           "parameters": [
+            "",
+            "\"Lvl3\"",
+            "0",
+            "0",
             ""
           ]
         }

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22916801610748827,
+    "zoomFactor": 0.43034038022076687,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -86,8 +86,8 @@
       "name": "background_img",
       "persistentUuid": "75dd752a-8c0a-4eaa-aec6-537caca69985",
       "width": 1921,
-      "x": 0,
-      "y": 0,
+      "x": -12,
+      "y": -2,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -245,7 +245,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "concept.png",
+                  "image": "concept3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

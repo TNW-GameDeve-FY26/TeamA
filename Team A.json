@@ -536,42 +536,114 @@
         "userAdded": false
       },
       {
-        "file": "Lantern_Leach.webp",
+        "file": "concept3.png",
         "kind": "image",
         "metadata": "",
-        "name": "Lantern_Leach.webp",
+        "name": "concept3.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Lantern_Leach.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Lantern_Leach.png\"}",
-        "name": "Lantern_Leach",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Lantern_Leach2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Lantern_Leach2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "IMG_1654.webp",
+        "file": "concept4.png",
         "kind": "image",
         "metadata": "",
-        "name": "IMG_1654.webp",
+        "name": "concept4.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/Second_Lvl_Char.png",
+        "file": "assets/NewSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Second_Lvl_Char",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bottonl_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bottonl_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bottomr_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bottomr_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topl_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topl_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/center_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/center_twn.png\"}",
+        "name": "center_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topr_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topr_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/boss_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "boss_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl3_void_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "lvl3_void_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl3_wall_obj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/lvl3_wall_obj.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -742,6 +814,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/lvl3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/boss_fight"
     }
   ]
 }

@@ -100,6 +100,7 @@
       "bold": false,
       "italic": false,
       "name": "start_game_txt",
+      "persistentUuid": "79524597-5a49-4e36-b939-b0de1e6c95b4",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,

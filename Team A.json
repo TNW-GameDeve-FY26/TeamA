@@ -1,0 +1,851 @@
+{
+  "firstLayout": "home_screen",
+  "gdVersion": {
+    "build": 266,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "0ee87f55-bff5-4f57-b99f-b272b27e798b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Team A",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/player_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/collision_wall_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "collision_wall_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzle_block_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "puzzle_block_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/forest_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "forest_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/maze_player_sprint.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "maze_player_sprint",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/maze_wall_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "maze_wall_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/won_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "won_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level_win_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "level_win_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lobby_track.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lobby_track.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_back_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "health_back_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_bar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "health_bar",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/damage_test.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "damage_test",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pulse_wave_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pulse_wave_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/enemy_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/enemy_obj.png\"}",
+        "name": "enemy_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/melee_hitbox_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "melee_hitbox_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_back_obj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/health_back_obj.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_back_obj4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "health_back_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/health_back_obj5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "health_back_obj3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mana_back_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mana_back_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mana_bar_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mana_bar_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bullet_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bullet_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bullet_obj2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bullet_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite4.png\"}",
+        "name": "NewTiledSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bush_guy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush_guy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bush_bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush_bullet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "small rock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "small rock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "path_thing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "path_thing.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Path_Lvl2_Obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Path_Lvl2_Obj.png\"}",
+        "name": "Path_Lvl2_Obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite8.png\"}",
+        "name": "NewTiledSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/St.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "St",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite9.png\"}",
+        "name": "NewTiledSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trigger_Obj_1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Trigger_Obj_1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial_placeholder.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tutorial_placeholder",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Text_Box.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Text_Box.png\"}",
+        "name": "Text_Box",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Text_Box2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Text_Box2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Side_Char_Sprite1.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Side_Char_Sprite1.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial_placeholder2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tutorial_placeholder2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Tree_Sprite_Prototype.webp",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Tree_Sprite_Prototype.webp\",\"extension\":\".png\"}",
+        "name": "Tree_Sprite_Prototype.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tree_Sprite_Prototype.webp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Tree_Sprite_Prototype.webp2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/forest_obj2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "forest_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Tree_Sprite_Prototype2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree_Sprite_Prototype2.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Tree_Sprite_Prototype3.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree_Sprite_Prototype3.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+<<<<<<< HEAD
+        "file": "assets/Obj_Melee_Man___Enemy.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Obj_Melee_Man___Enemy",
+=======
+        "file": "concept3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept3.png",
+>>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+<<<<<<< HEAD
+        "file": "assets/Obj_Melee_Man___Enemy2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Obj_Melee_Man___Enemy2",
+=======
+        "file": "concept4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "concept4.png",
+>>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+<<<<<<< HEAD
+=======
+        "file": "assets/bottonl_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bottonl_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bottomr_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bottomr_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topl_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topl_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/center_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/center_twn.png\"}",
+        "name": "center_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topr_twn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topr_twn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+>>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+<<<<<<< HEAD
+=======
+      },
+      {
+        "file": "assets/boss_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "boss_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl3_void_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "lvl3_void_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl3_wall_obj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/lvl3_wall_obj.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite14",
+        "smoothed": true,
+        "userAdded": false
+>>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "player_position_x",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "name": "player_position_y",
+      "type": "number",
+      "value": 800
+    },
+    {
+      "name": "maze_complete",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "level",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main_scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/puzzles"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/home_screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game_info"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_controls"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/collisions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/camera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/puzzles"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/puzzle_completion"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/title_screen_buttons"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_attacks"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/game_settings"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemy_ai"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/charactor_dialog"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/melee-man---enemy"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lantern-leach---enemy"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lvl3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/boss_fight"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/minimum_viable_product_scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/game_info"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ui"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/lvl1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/lvl2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/lvl3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/boss_fight"
+    }
+  ]
+}

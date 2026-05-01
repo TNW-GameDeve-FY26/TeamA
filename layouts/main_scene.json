@@ -76,9 +76,32 @@
           "value": false
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
+          "name": "FlashEffect",
+          "type": "Flash::FlashEffect",
+          "Effect": "Effect",
+          "HalfPeriodTime": 0.5,
+          "IsFlashing": false,
+          "FlashDuration": 0,
+          "EffectName": ""
+        },
+        {
+          "isFolded": true,
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
           "LeftwardSpeed": 0.9,
@@ -2480,6 +2503,102 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "additive": true,
+      "assetStoreId": "0313bde459d2aa5257fbd978abe8ced6c994ae649f95adefa900388b5a7f2e4e",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 90,
+      "emitterForceMin": 50,
+      "flow": 100,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "BasicExplosionEnergy",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 194,
+      "particleColor1": "40;232;255",
+      "particleColor2": "97;0;194",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 232,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 3,
+      "particleLifeTimeMin": 3,
+      "particleRed1": 40,
+      "particleRed2": 97,
+      "particleSize1": 100,
+      "particleSize2": 0,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "persistentUuid": "8cc672f3-947a-4cd0-92ad-659a9dff660d",
+      "rendererParam1": 120,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tank": 30,
+      "textureParticleName": "ExplosionFog-Texture-2.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": true,
+      "assetStoreId": "0313bde459d2aa5257fbd978abe8ced6c994ae649f95adefa900388b5a7f2e4e",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 20,
+      "emitterForceMin": 10,
+      "flow": 100,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "LightningTexture",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 112,
+      "particleColor1": "0;166;255",
+      "particleColor2": "0;2;112",
+      "particleGravityX": 0,
+      "particleGravityY": -60,
+      "particleGreen1": 166,
+      "particleGreen2": 2,
+      "particleLifeTimeMax": 3,
+      "particleLifeTimeMin": 3,
+      "particleRed1": 0,
+      "particleRed2": 0,
+      "particleSize1": 0,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "persistentUuid": "074ce48f-bcee-4d94-8e01-d65f5369e776",
+      "rendererParam1": 200,
+      "rendererParam2": 200,
+      "rendererType": "Quad",
+      "tank": 6,
+      "textureParticleName": "Lightning-Texture-1.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2672,6 +2791,12 @@
       },
       {
         "objectName": "Lvl3_TiledSprite"
+      },
+      {
+        "objectName": "BasicExplosionEnergy"
+      },
+      {
+        "objectName": "LightningTexture"
       }
     ]
   },
@@ -3058,6 +3183,10 @@
     {
       "name": "FireBullet",
       "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "FlashEffect",
+      "type": "Flash::FlashEffect"
     },
     {
       "name": "Flippable",

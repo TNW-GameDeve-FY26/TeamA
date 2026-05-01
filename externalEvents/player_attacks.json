@@ -97,10 +97,42 @@
               },
               "parameters": [
                 "",
+                "BasicExplosionEnergy",
+                "player_obj.CenterX()",
+                "player_obj.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "LightningTexture",
+                "player_obj.CenterX()",
+                "player_obj.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
                 "pulse_wave_obj",
                 "player_obj.CenterX()",
                 "player_obj.CenterY()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "pulse_wave_obj"
               ]
             },
             {
@@ -112,6 +144,18 @@
                 "Resizable",
                 "250",
                 "250"
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::FlashEffect::Flash"
+              },
+              "parameters": [
+                "player_obj",
+                "FlashEffect",
+                "2",
+                "\"Effect\"",
+                ""
               ]
             },
             {
@@ -345,11 +389,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "parameters": []

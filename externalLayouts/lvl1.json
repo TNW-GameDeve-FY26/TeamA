@@ -1194,8 +1194,8 @@
       "name": "level_win_obj",
       "persistentUuid": "7517abb7-a173-47eb-80df-2bb7e509401a",
       "width": 0,
-      "x": 644,
-      "y": 685,
+      "x": 724,
+      "y": 554,
       "zOrder": 90,
       "numberProperties": [],
       "stringProperties": [],
@@ -1203,7 +1203,7 @@
     }
   ],
   "editionSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -1213,8 +1213,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.1902462403049296,
+    "snap": true,
+    "zoomFactor": 0.5145265746872558,
     "windowMask": true,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

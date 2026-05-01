@@ -2787,6 +2787,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 132,
+      "keepRatio": true,
+      "layer": "",
+      "name": "boss_fight_trigger_obj",
+      "persistentUuid": "0ee1f727-bc5d-4bdc-a7be-1163ec604568",
+      "width": 28,
+      "x": 7090,
+      "y": 1529,
+      "zOrder": -17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -2801,7 +2818,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.10730787128507918,
+    "zoomFactor": 0.12253038835777866,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

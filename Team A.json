@@ -742,6 +742,24 @@
         "name": "assets/game ui outline.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "old_start3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "old_start3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/boss_fight_trigger_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "boss_fight_trigger_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -858,6 +876,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/boss_fight"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/in_game_info_text"
     }
   ],
   "eventsFunctionsExtensions": [

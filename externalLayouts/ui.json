@@ -102,6 +102,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 344,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "in_game_info_txt",
+      "persistentUuid": "5e0e0610-0913-4bbc-b66e-407ae69870b2",
+      "width": 345,
+      "x": 1573,
+      "y": 230,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

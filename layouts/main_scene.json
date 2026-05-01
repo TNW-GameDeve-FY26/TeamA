@@ -2632,6 +2632,189 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ui_identifier_obj",
+      "persistentUuid": "dcc7c657-ec6c-45d2-8a2d-022610d95d3d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/game bluei.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 806,
+                        "y": 160
+                      },
+                      {
+                        "x": 2482,
+                        "y": 160
+                      },
+                      {
+                        "x": 2482,
+                        "y": 4463
+                      },
+                      {
+                        "x": 806,
+                        "y": 4463
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ui_background_obj",
+      "persistentUuid": "92748640-004f-41e2-8a8c-598ebb0ed1df",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/game ui blackground.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1260,
+                        "y": 214
+                      },
+                      {
+                        "x": 7720,
+                        "y": 214
+                      },
+                      {
+                        "x": 7720,
+                        "y": 2424
+                      },
+                      {
+                        "x": 1260,
+                        "y": 2424
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ui_outline_obj",
+      "persistentUuid": "f33fc108-6cf5-463e-87ff-7e5f1345b6f6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/game ui outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 808,
+                        "y": 166
+                      },
+                      {
+                        "x": 7739,
+                        "y": 166
+                      },
+                      {
+                        "x": 7739,
+                        "y": 4434
+                      },
+                      {
+                        "x": 808,
+                        "y": 4434
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2787,6 +2970,15 @@
           },
           {
             "objectName": "exit_game_txt"
+          },
+          {
+            "objectName": "ui_identifier_obj"
+          },
+          {
+            "objectName": "ui_background_obj"
+          },
+          {
+            "objectName": "ui_outline_obj"
           }
         ]
       },

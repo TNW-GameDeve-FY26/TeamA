@@ -710,6 +710,38 @@
         "name": "Second_Lvl_Char",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/boss_obj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/boss_obj.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/game bluei.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/game bluei.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/game ui blackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/game ui blackground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/game ui outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/game ui outline.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

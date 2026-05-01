@@ -207,6 +207,42 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "boss_obj",
+                "pulse_wave_obj",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "boss_healthbar_obj",
+                "boss_health_amount",
+                "-",
+                "50"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -340,6 +376,42 @@
               "parameters": [
                 "enemy_obj",
                 "enemy_health",
+                "-",
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "boss_obj",
+                "melee_hitbox_obj",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "boss_healthbar_obj",
+                "boss_health_amount",
                 "-",
                 "25"
               ]

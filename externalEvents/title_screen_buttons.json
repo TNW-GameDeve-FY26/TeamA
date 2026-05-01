@@ -106,12 +106,11 @@
         },
         {
           "type": {
-            "value": "Scene"
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"main_scene\"",
-            ""
+            "\"main_scene\""
           ]
         }
       ]

@@ -3,6 +3,18 @@
   "name": "in_game_info_text",
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Hide info Text"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -10,6 +22,43 @@
             "value": "SceneJustBegins"
           },
           "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "showing_info_txt",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "level",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "showing_info_txt",
+            "=",
             ""
           ]
         }
@@ -60,6 +109,16 @@
       "actions": [
         {
           "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "showing_info_txt",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Show"
           },
           "parameters": [
@@ -107,13 +166,20 @@
       "actions": [
         {
           "type": {
-            "value": "Hide"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "in_game_info_txt"
+            "showing_info_txt",
+            "False",
+            ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }

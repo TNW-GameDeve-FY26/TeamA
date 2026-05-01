@@ -2127,9 +2127,9 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
-      "persistentUuid": "208000ab-98ef-4d40-9659-d43dc783e33c",
-      "texture": "",
+      "name": "lvl3_wall_obj",
+      "persistentUuid": "363e12c4-3291-4df3-bc84-865f3a803552",
+      "texture": "assets/lvl3_wall_obj.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2145,6 +2145,9 @@
         "children": [
           {
             "objectName": "lvl3_void_obj"
+          },
+          {
+            "objectName": "lvl3_wall_obj"
           }
         ]
       },
@@ -2303,9 +2306,6 @@
             "objectName": "Text_4_End"
           }
         ]
-      },
-      {
-        "objectName": "NewTiledSprite"
       }
     ]
   },

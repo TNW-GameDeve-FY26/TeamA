@@ -694,6 +694,22 @@
         "name": "dungeon_door_obj",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Shopkeep.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shopkeep.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Second_Lvl_Char2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Second_Lvl_Char",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

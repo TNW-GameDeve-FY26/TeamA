@@ -1229,6 +1229,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Stone_Wall_Lvl2Obj",
+      "persistentUuid": "57c1d7a1-606c-4886-a043-9e26a55e2e3b",
       "texture": "NewTiledSprite8",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1807,6 +1808,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Second_Lvl_Char",
+      "persistentUuid": "67a5a35e-2da2-49e3-b293-c9faae279d14",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1840,20 +1842,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 9
+                        "x": 114,
+                        "y": 56
                       },
                       {
-                        "x": 119,
-                        "y": 9
+                        "x": 1012,
+                        "y": 56
                       },
                       {
-                        "x": 119,
-                        "y": 59
+                        "x": 1012,
+                        "y": 512
                       },
                       {
-                        "x": 15,
-                        "y": 59
+                        "x": 114,
+                        "y": 512
                       }
                     ]
                   ]

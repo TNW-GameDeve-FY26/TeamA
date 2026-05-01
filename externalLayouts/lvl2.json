@@ -963,7 +963,7 @@
       "initialVariables": []
     },
     {
-      "angle": 180,
+      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 85,
@@ -992,7 +992,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2291680161074924,
+    "zoomFactor": 0.1539278892348361,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

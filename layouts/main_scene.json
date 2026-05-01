@@ -42,6 +42,9 @@
       "objects": [
         {
           "name": "lvl3_hidden_path_obj"
+        },
+        {
+          "name": "dungeon_door_obj"
         }
       ]
     }
@@ -2615,6 +2618,18 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "dungeon_door_obj",
+      "persistentUuid": "9704de99-f0d7-455d-aee6-6b5afb87bc0d",
+      "texture": "dungeon_door_obj",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2625,6 +2640,9 @@
         "children": [
           {
             "objectName": "lvl3_void_obj"
+          },
+          {
+            "objectName": "dungeon_door_obj"
           },
           {
             "objectName": "lvl3_wall_obj"

@@ -678,6 +678,22 @@
         "name": "lvl3_hidden_path_obj",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dungeon_door_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "dungeon_door_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

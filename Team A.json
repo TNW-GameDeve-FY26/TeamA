@@ -792,6 +792,166 @@
         "name": "fight_start_trigger_obj",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "frame0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "player_back_walk0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_back_walk0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "player_back_walk0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_back_walk0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "player_back_walk0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_back_walk0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "player_back_walk0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_back_walk0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "player_back_walk0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_back_walk0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "player_back_walk0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_back_walk0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "player_back_walk0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_back_walk0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "side_walk0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "side_walk0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "side_walk0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "side_walk0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "side_walk0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "side_walk0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "side_walk0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "side_walk0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "side_walk0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "side_walk0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "side_walk0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "side_walk0020.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

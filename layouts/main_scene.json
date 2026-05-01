@@ -108,7 +108,7 @@
   "instances": [],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "player_obj",
       "persistentUuid": "9c5816ed-00ee-457f-8e55-ac2d4c9329d3",
@@ -188,52 +188,1025 @@
       ],
       "animations": [
         {
-          "name": "player_obj",
+          "name": "down",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player_obj",
+                  "image": "frame0000.png",
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 93.5,
-                      "y": 31
+                      "x": 480.5,
+                      "y": 744
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 477,
+                    "y": 586.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 477.5,
+                    "y": 586
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 266,
+                        "y": 438
                       },
                       {
-                        "x": 64,
-                        "y": 0
+                        "x": 364,
+                        "y": 334
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 509,
+                        "y": 294
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 631.5,
+                        "y": 355
+                      },
+                      {
+                        "x": 582.5,
+                        "y": 880.5
+                      },
+                      {
+                        "x": 366.5,
+                        "y": 881.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "frame0004.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 480.5,
+                      "y": 744
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 438
+                      },
+                      {
+                        "x": 364,
+                        "y": 334
+                      },
+                      {
+                        "x": 509,
+                        "y": 294
+                      },
+                      {
+                        "x": 631.5,
+                        "y": 355
+                      },
+                      {
+                        "x": 582.5,
+                        "y": 880.5
+                      },
+                      {
+                        "x": 366.5,
+                        "y": 881.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "frame0008.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 480.5,
+                      "y": 744
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 438
+                      },
+                      {
+                        "x": 364,
+                        "y": 334
+                      },
+                      {
+                        "x": 509,
+                        "y": 294
+                      },
+                      {
+                        "x": 631.5,
+                        "y": 355
+                      },
+                      {
+                        "x": 582.5,
+                        "y": 880.5
+                      },
+                      {
+                        "x": 366.5,
+                        "y": 881.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "frame0012.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 480.5,
+                      "y": 744
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 438
+                      },
+                      {
+                        "x": 364,
+                        "y": 334
+                      },
+                      {
+                        "x": 509,
+                        "y": 294
+                      },
+                      {
+                        "x": 631.5,
+                        "y": 355
+                      },
+                      {
+                        "x": 582.5,
+                        "y": 880.5
+                      },
+                      {
+                        "x": 366.5,
+                        "y": 881.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "frame0016.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 480.5,
+                      "y": 744
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 438
+                      },
+                      {
+                        "x": 364,
+                        "y": 334
+                      },
+                      {
+                        "x": 509,
+                        "y": 294
+                      },
+                      {
+                        "x": 631.5,
+                        "y": 355
+                      },
+                      {
+                        "x": 582.5,
+                        "y": 880.5
+                      },
+                      {
+                        "x": 366.5,
+                        "y": 881.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "frame0020.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 480.5,
+                      "y": 744
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 438
+                      },
+                      {
+                        "x": 364,
+                        "y": 334
+                      },
+                      {
+                        "x": 509,
+                        "y": 294
+                      },
+                      {
+                        "x": 631.5,
+                        "y": 355
+                      },
+                      {
+                        "x": 582.5,
+                        "y": 880.5
+                      },
+                      {
+                        "x": 366.5,
+                        "y": 881.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "frame0024.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 480.5,
+                      "y": 744
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 266,
+                        "y": 438
+                      },
+                      {
+                        "x": 364,
+                        "y": 334
+                      },
+                      {
+                        "x": 509,
+                        "y": 294
+                      },
+                      {
+                        "x": 631.5,
+                        "y": 355
+                      },
+                      {
+                        "x": 582.5,
+                        "y": 880.5
+                      },
+                      {
+                        "x": 366.5,
+                        "y": 881.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player_back_walk0000.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 476.5,
+                      "y": 481
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 476.5,
+                    "y": 586.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 343
+                      },
+                      {
+                        "x": 593,
+                        "y": 337
+                      },
+                      {
+                        "x": 617,
+                        "y": 894.5
+                      },
+                      {
+                        "x": 373,
+                        "y": 888.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player_back_walk0004.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 476.5,
+                      "y": 481
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 476.5,
+                    "y": 586.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 343
+                      },
+                      {
+                        "x": 593,
+                        "y": 337
+                      },
+                      {
+                        "x": 617,
+                        "y": 894.5
+                      },
+                      {
+                        "x": 373,
+                        "y": 888.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player_back_walk0008.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 476.5,
+                      "y": 481
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 476.5,
+                    "y": 586.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 343
+                      },
+                      {
+                        "x": 593,
+                        "y": 337
+                      },
+                      {
+                        "x": 617,
+                        "y": 894.5
+                      },
+                      {
+                        "x": 373,
+                        "y": 888.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player_back_walk0012.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 476.5,
+                      "y": 481
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 476.5,
+                    "y": 586.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 343
+                      },
+                      {
+                        "x": 593,
+                        "y": 337
+                      },
+                      {
+                        "x": 617,
+                        "y": 894.5
+                      },
+                      {
+                        "x": 373,
+                        "y": 888.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player_back_walk0016.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 476.5,
+                      "y": 481
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 476.5,
+                    "y": 586.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 343
+                      },
+                      {
+                        "x": 593,
+                        "y": 337
+                      },
+                      {
+                        "x": 617,
+                        "y": 894.5
+                      },
+                      {
+                        "x": 373,
+                        "y": 888.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player_back_walk0020.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 476.5,
+                      "y": 481
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 476.5,
+                    "y": 586.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 343
+                      },
+                      {
+                        "x": 593,
+                        "y": 337
+                      },
+                      {
+                        "x": 617,
+                        "y": 894.5
+                      },
+                      {
+                        "x": 373,
+                        "y": 888.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player_back_walk0024.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 476.5,
+                      "y": 481
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 476.5,
+                    "y": 586.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 360,
+                        "y": 343
+                      },
+                      {
+                        "x": 593,
+                        "y": 337
+                      },
+                      {
+                        "x": 617,
+                        "y": 894.5
+                      },
+                      {
+                        "x": 373,
+                        "y": 888.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "side_walk0000.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 637.5,
+                      "y": 577.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 294.5,
+                        "y": 787.5
+                      },
+                      {
+                        "x": 402,
+                        "y": 351
+                      },
+                      {
+                        "x": 543,
+                        "y": 323.5
+                      },
+                      {
+                        "x": 571,
+                        "y": 382.5
+                      },
+                      {
+                        "x": 608.5,
+                        "y": 751.5
+                      },
+                      {
+                        "x": 507.5,
+                        "y": 896.5
+                      },
+                      {
+                        "x": 424,
+                        "y": 899.5
+                      },
+                      {
+                        "x": 347,
+                        "y": 848.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "side_walk0004.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 637.5,
+                      "y": 577.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 294.5,
+                        "y": 787.5
+                      },
+                      {
+                        "x": 402,
+                        "y": 351
+                      },
+                      {
+                        "x": 543,
+                        "y": 323.5
+                      },
+                      {
+                        "x": 571,
+                        "y": 382.5
+                      },
+                      {
+                        "x": 608.5,
+                        "y": 751.5
+                      },
+                      {
+                        "x": 507.5,
+                        "y": 896.5
+                      },
+                      {
+                        "x": 424,
+                        "y": 899.5
+                      },
+                      {
+                        "x": 347,
+                        "y": 848.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "side_walk0008.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 637.5,
+                      "y": 577.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 294.5,
+                        "y": 787.5
+                      },
+                      {
+                        "x": 402,
+                        "y": 351
+                      },
+                      {
+                        "x": 543,
+                        "y": 323.5
+                      },
+                      {
+                        "x": 571,
+                        "y": 382.5
+                      },
+                      {
+                        "x": 608.5,
+                        "y": 751.5
+                      },
+                      {
+                        "x": 507.5,
+                        "y": 896.5
+                      },
+                      {
+                        "x": 424,
+                        "y": 899.5
+                      },
+                      {
+                        "x": 347,
+                        "y": 848.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "side_walk0012.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 637.5,
+                      "y": 577.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 294.5,
+                        "y": 787.5
+                      },
+                      {
+                        "x": 402,
+                        "y": 351
+                      },
+                      {
+                        "x": 543,
+                        "y": 323.5
+                      },
+                      {
+                        "x": 571,
+                        "y": 382.5
+                      },
+                      {
+                        "x": 608.5,
+                        "y": 751.5
+                      },
+                      {
+                        "x": 507.5,
+                        "y": 896.5
+                      },
+                      {
+                        "x": 424,
+                        "y": 899.5
+                      },
+                      {
+                        "x": 347,
+                        "y": 848.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "side_walk0016.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 637.5,
+                      "y": 577.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 294.5,
+                        "y": 787.5
+                      },
+                      {
+                        "x": 402,
+                        "y": 351
+                      },
+                      {
+                        "x": 543,
+                        "y": 323.5
+                      },
+                      {
+                        "x": 571,
+                        "y": 382.5
+                      },
+                      {
+                        "x": 608.5,
+                        "y": 751.5
+                      },
+                      {
+                        "x": 507.5,
+                        "y": 896.5
+                      },
+                      {
+                        "x": 424,
+                        "y": 899.5
+                      },
+                      {
+                        "x": 347,
+                        "y": 848.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "side_walk0020.png",
+                  "points": [
+                    {
+                      "name": "hit_point",
+                      "x": 637.5,
+                      "y": 577.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 477,
+                    "y": 586.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 477.5,
+                    "y": 586
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 294.5,
+                        "y": 787.5
+                      },
+                      {
+                        "x": 402,
+                        "y": 351
+                      },
+                      {
+                        "x": 543,
+                        "y": 323.5
+                      },
+                      {
+                        "x": 571,
+                        "y": 382.5
+                      },
+                      {
+                        "x": 608.5,
+                        "y": 751.5
+                      },
+                      {
+                        "x": 507.5,
+                        "y": 896.5
+                      },
+                      {
+                        "x": 424,
+                        "y": 899.5
+                      },
+                      {
+                        "x": 347,
+                        "y": 848.5
                       }
                     ]
                   ]

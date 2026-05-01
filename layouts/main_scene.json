@@ -2469,6 +2469,17 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Lvl3_TiledSprite",
+      "texture": "NewTiledSprite14",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2658,6 +2669,9 @@
             "objectName": "Text_End4_Lvl2"
           }
         ]
+      },
+      {
+        "objectName": "Lvl3_TiledSprite"
       }
     ]
   },

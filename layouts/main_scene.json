@@ -2111,11 +2111,43 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "lvl3_void_obj",
+      "persistentUuid": "cbcf7fdc-7943-45f9-a04f-d22d194aa053",
+      "texture": "lvl3_void_obj",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "persistentUuid": "208000ab-98ef-4d40-9659-d43dc783e33c",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Level 3 stuff",
+        "children": [
+          {
+            "objectName": "lvl3_void_obj"
+          }
+        ]
+      },
       {
         "folderName": "Boss Fight",
         "children": [
@@ -2271,6 +2303,9 @@
             "objectName": "Text_4_End"
           }
         ]
+      },
+      {
+        "objectName": "NewTiledSprite"
       }
     ]
   },

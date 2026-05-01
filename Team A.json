@@ -614,6 +614,14 @@
         "name": "boss_obj",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/lvl3_void_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "lvl3_void_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

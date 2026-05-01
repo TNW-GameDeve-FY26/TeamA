@@ -19,10 +19,12 @@
       "conditions": [
         {
           "type": {
-            "value": "SceneJustBegins"
+            "value": "NumberVariable"
           },
           "parameters": [
-            ""
+            "level",
+            "=",
+            "4"
           ]
         }
       ],
@@ -34,6 +36,14 @@
           "parameters": [
             "boss_tweens"
           ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "fight_start_trigger_obj"
+          ]
         }
       ]
     },
@@ -42,12 +52,14 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "CollisionNP"
           },
           "parameters": [
-            "level",
-            "=",
-            "4"
+            "player_obj",
+            "fight_start_trigger_obj",
+            "",
+            "",
+            ""
           ]
         }
       ],
@@ -82,6 +94,34 @@
             "where_to_move",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "lvl3_room_cover_obj",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "fight_start_trigger_obj",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "boss_fight_started",
+            "True",
+            ""
           ]
         }
       ]
@@ -427,8 +467,18 @@
           },
           "parameters": [
             "level",
-            "!=",
-            "4"
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "boss_fight_started",
+            "=",
+            ""
           ]
         }
       ],
@@ -448,12 +498,12 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "BooleanVariable"
           },
           "parameters": [
-            "level",
-            "=",
-            "4"
+            "boss_fight_started",
+            "True",
+            ""
           ]
         }
       ],
@@ -517,6 +567,80 @@
           },
           "parameters": [
             "boss_health"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "portal_obj",
+            "center_twn.CenterX()",
+            "center_twn.CenterY()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Boss Attacks"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "boss_healthbar_obj",
+            "boss_health_amount",
+            ">=",
+            "400"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "boss_fight_started",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::FireTowardObject"
+              },
+              "parameters": [
+                "boss_obj",
+                "FireBullet",
+                "boss_obj.CenterX()",
+                "boss_obj.CenterY()",
+                "boss_bullet_obj",
+                "player_obj",
+                "200",
+                ""
+              ]
+            }
           ]
         }
       ]

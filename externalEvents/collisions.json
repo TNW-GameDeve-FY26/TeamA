@@ -546,6 +546,12 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -555,8 +561,8 @@
           },
           "parameters": [
             "level",
-            "+",
-            "1"
+            "=",
+            "4"
           ]
         },
         {

@@ -768,6 +768,30 @@
         "name": "boss_healthbar_obj",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/portal_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "portal_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/boss_bullet_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "boss_bullet_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fight_start_trigger_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fight_start_trigger_obj",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

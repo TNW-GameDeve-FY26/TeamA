@@ -2770,6 +2770,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "boss_fight_trigger_obj",
+      "persistentUuid": "16856748-60f0-4672-8f96-f21756d29aa0",
+      "width": 0,
+      "x": 215,
+      "y": -730,
+      "zOrder": 228,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

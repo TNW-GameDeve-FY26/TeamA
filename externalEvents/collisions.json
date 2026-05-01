@@ -64,7 +64,7 @@
           },
           "parameters": [
             "",
-            "Text_Interact",
+            "Text_Interact_Lvl1",
             "850",
             "600",
             "\"UI\""
@@ -101,7 +101,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Text_Interact",
+            "Text_Interact_Lvl1",
             ""
           ]
         }
@@ -276,6 +276,35 @@
           "parameters": [
             "player_obj",
             "Tutorial_Placeholder",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_obj",
+            "Second_Lvl_Char",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player_obj",
+            "Second_Lvl_Char",
             ""
           ]
         }

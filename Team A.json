@@ -534,6 +534,46 @@
         "name": "Tree_Sprite_Prototype3.webp",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Lantern_Leach.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lantern_Leach.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Lantern_Leach.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Lantern_Leach.png\"}",
+        "name": "Lantern_Leach",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Lantern_Leach2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lantern_Leach2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMG_1654.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_1654.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Second_Lvl_Char.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Second_Lvl_Char",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

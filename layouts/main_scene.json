@@ -1439,7 +1439,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Text_Interact",
+      "name": "Text_Interact_Lvl1",
       "persistentUuid": "4d64ec4a-e4be-4452-bee1-63cfd6fd3a8e",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -1554,7 +1554,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Text_2",
+      "name": "Text_2_lvl1",
       "persistentUuid": "bd307a54-8a51-495e-be25-56d18b95ed37",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -1625,7 +1625,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Text_3",
+      "name": "Text_3_lvl1",
       "persistentUuid": "08add04e-11de-484e-8f23-ac0709efa4f0",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -1679,7 +1679,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Text_4_End",
+      "name": "Text_4_End_lvl1",
       "persistentUuid": "bff11582-755d-437d-b154-c6d1ab30ed23",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -1697,7 +1697,7 @@
           "TypedText": ""
         }
       ],
-      "string": "Finnbogi: Oh no! there are monsters over there! \n(Use E for Spell Attack and LMB for Melee)",
+      "string": "Finnbogi: Oh no! there are monsters over there! \n(Use RMB for Spell Attack and LMB for Melee)",
       "font": "",
       "textAlignment": "left",
       "characterSize": 19,
@@ -1720,7 +1720,341 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Finnbogi: Oh no! there are monsters over there! \n(Use E for Spell Attack and LMB for Melee)",
+        "text": "Finnbogi: Oh no! there are monsters over there! \n(Use RMB for Spell Attack and LMB for Melee)",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 19,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Obj_Lantern_Leach_Enemy",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Lantern_Leach",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lantern_Leach2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 10
+                      },
+                      {
+                        "x": 114,
+                        "y": 10
+                      },
+                      {
+                        "x": 114,
+                        "y": 106
+                      },
+                      {
+                        "x": 5,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Second_Lvl_Char",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Second_Lvl_Char",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Second_Lvl_Char",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 119,
+                        "y": 9
+                      },
+                      {
+                        "x": 119,
+                        "y": 59
+                      },
+                      {
+                        "x": 15,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Start_Text_lvl2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Shopkeep: You! Yeah you there! Come here",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 19,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Shopkeep: You! Yeah you there! Come here",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 19,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text_2_lvl2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Shopkeeper: Browse my wares!\n i have great swords to scrolls! anything!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 19,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Shopkeeper: Browse my wares!\n i have great swords to scrolls! anything!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 19,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text_3_Lvl2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Shopkeeper: Wdym you dont have any money...?",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 19,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Shopkeeper: Wdym you dont have any money...?",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 19,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Text_End4_Lvl2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Shopkeeper: GET OUT OF HERE! \n...Broke adventurer... ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 19,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Shopkeeper: GET OUT OF HERE! \n...Broke adventurer... ",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1759,6 +2093,9 @@
       {
         "folderName": "Level 2 stuff",
         "children": [
+          {
+            "objectName": "Obj_Lantern_Leach_Enemy"
+          },
           {
             "objectName": "Temp_End_Text"
           },
@@ -1841,6 +2178,9 @@
         "folderName": "Text-Dialog Stuff",
         "children": [
           {
+            "objectName": "Second_Lvl_Char"
+          },
+          {
             "objectName": "Tutorial_Placeholder"
           },
           {
@@ -1853,16 +2193,28 @@
             "objectName": "Text_Box2"
           },
           {
-            "objectName": "Text_Interact"
+            "objectName": "Text_Interact_Lvl1"
           },
           {
-            "objectName": "Text_2"
+            "objectName": "Text_2_lvl1"
           },
           {
-            "objectName": "Text_3"
+            "objectName": "Text_3_lvl1"
           },
           {
-            "objectName": "Text_4_End"
+            "objectName": "Text_4_End_lvl1"
+          },
+          {
+            "objectName": "Start_Text_lvl2"
+          },
+          {
+            "objectName": "Text_2_lvl2"
+          },
+          {
+            "objectName": "Text_3_Lvl2"
+          },
+          {
+            "objectName": "Text_End4_Lvl2"
           }
         ]
       }

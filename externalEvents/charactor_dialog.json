@@ -43,7 +43,44 @@
           },
           "parameters": [
             "",
-            "Text_Interact",
+            "Text_Interact_Lvl1",
+            "850",
+            "600",
+            "\"UI\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_obj",
+            "Second_Lvl_Char",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Text_Interact_Lvl1",
             "850",
             "600",
             "\"UI\""
@@ -80,7 +117,52 @@
             "value": "Delete"
           },
           "parameters": [
-            "Text_Interact",
+            "Text_Interact_Lvl1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "In_Dialog",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player_obj",
+            "Second_Lvl_Char",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_Interact_Lvl1",
             ""
           ]
         },
@@ -199,10 +281,18 @@
         },
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
-            "Text_Interact",
+            "Text_Interact_Lvl1",
             ""
           ]
         },
@@ -250,7 +340,7 @@
           },
           "parameters": [
             "",
-            "Text_2",
+            "Text_2_lvl1",
             "940",
             "405",
             "\"UI\""
@@ -278,7 +368,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Text_2",
+            "Text_2_lvl1",
             ""
           ]
         },
@@ -300,7 +390,7 @@
           },
           "parameters": [
             "",
-            "Text_3",
+            "Text_3_lvl1",
             "940",
             "405",
             "\"UI\""
@@ -328,7 +418,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Text_3",
+            "Text_3_lvl1",
             ""
           ]
         },
@@ -350,7 +440,7 @@
           },
           "parameters": [
             "",
-            "Text_4_End",
+            "Text_4_End_lvl1",
             "940",
             "405",
             "\"UI\""
@@ -378,7 +468,300 @@
             "value": "Delete"
           },
           "parameters": [
-            "Text_4_End",
+            "Text_4_End_lvl1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "In_Dialog",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player_obj",
+                "Second_Lvl_Char",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "In_Dialog",
+                "=",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"e\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "In_Dialog",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Text_box",
+            "925",
+            "400",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Start_Text_lvl2",
+            "940",
+            "405",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_Interact_Lvl1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_box",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Start_Text_lvl2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Text_Box2",
+            "925",
+            "400",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Text_2_lvl2",
+            "940",
+            "405",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_Box2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_2_lvl2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Text_Box2",
+            "925",
+            "400",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Text_3_Lvl2",
+            "940",
+            "405",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_Box2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_3_Lvl2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Text_Box2",
+            "925",
+            "400",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Text_End4_Lvl2",
+            "940",
+            "405",
+            "\"UI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_Box2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Text_End4_Lvl2",
             ""
           ]
         },

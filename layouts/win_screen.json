@@ -1,11 +1,11 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "game_95info",
-  "name": "game_info",
+  "mangledName": "win_95screen",
+  "name": "win_screen",
   "r": 247,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 249,
   "uiSettings": {
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.13480471535734664,
+    "zoomFactor": 0.3645833333333333,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,32 +30,17 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1105,
       "keepRatio": true,
       "layer": "",
-      "name": "player_control_txt",
-      "persistentUuid": "31466c47-ccaf-4d1a-b604-4e2a3eb50ba1",
-      "width": 0,
-      "x": 191,
-      "y": 93,
+      "name": "background_obj",
+      "persistentUuid": "f76d379d-48c8-4bd7-afc0-abef481ddf94",
+      "width": 1944,
+      "x": -9,
+      "y": -6,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "menu_return_txt",
-      "persistentUuid": "0177da1a-98da-4e89-8e3b-8b9176db0cfc",
-      "width": 0,
-      "x": 201,
-      "y": 750,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -64,15 +49,31 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 153,
       "keepRatio": true,
       "layer": "",
-      "name": "background_img",
-      "persistentUuid": "a9406982-828e-4cd6-98be-38c6a642447d",
-      "width": 1921,
-      "x": 0,
-      "y": 0,
-      "zOrder": 0,
+      "name": "win_txt",
+      "persistentUuid": "eead5172-e647-4cbc-a446-c0fdf1991e09",
+      "width": 1491,
+      "x": 209,
+      "y": 163,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "return_to_start_obj",
+      "persistentUuid": "e3ed7fe8-7aff-49c7-8117-4f0041918f16",
+      "width": 0,
+      "x": 710,
+      "y": 666,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -80,98 +81,10 @@
   ],
   "objects": [
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "player_control_txt",
-      "persistentUuid": "0721d526-c7bb-4e53-bbe2-1f422c9144e7",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "W = Upward Movement\nA = Backward Movement\nS = Downward Movement\nD = Forward Movement\nE = Interact\nLMB = Melee\nRMB = AOE spell",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": true,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "W = Upward Movement\nA = Backward Movement\nS = Downward Movement\nD = Forward Movement\nE = Interact\nLMB = Melee\nRMB = AOE spell",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 70,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "menu_return_txt",
-      "persistentUuid": "32a0dd4a-b9b2-4781-9948-3fd63a0055bd",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Return to Home Screen",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": true,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Return to Home Screen",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 70,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "background_img",
-      "persistentUuid": "273f030c-5e93-48cc-ad01-f905991ded0a",
+      "name": "background_obj",
+      "persistentUuid": "f122c4a6-74b2-4c99-85a1-c983c2947895",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -179,16 +92,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "NewSprite",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "concept4.png",
+                  "image": "background_obj",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -208,16 +122,16 @@
                         "y": 0
                       },
                       {
-                        "x": 10000,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 10000,
-                        "y": 5000
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 5000
+                        "y": 64
                       }
                     ]
                   ]
@@ -227,19 +141,107 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "win_txt",
+      "persistentUuid": "4d1ed93b-3b20-4aac-9445-cf7e8c361798",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Good Job! It seems that portal telported you back to your home, your journey is complete. \n\nThank you for playing our game regardless of it's level of being done!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 45,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Good Job! It seems that portal telported you back to your home, your journey is complete. \n\nThank you for playing our game regardless of it's level of being done!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 45,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "return_to_start_obj",
+      "persistentUuid": "79703331-099b-4141-aa67-13e2e25ebe6c",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Return To Start",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Return To Start",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "player_control_txt"
+        "objectName": "background_obj"
       },
       {
-        "objectName": "menu_return_txt"
+        "objectName": "win_txt"
       },
       {
-        "objectName": "background_img"
+        "objectName": "return_to_start_obj"
       }
     ]
   },
@@ -252,7 +254,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "menu_return_txt",
+            "return_to_start_obj",
             "",
             "",
             ""
@@ -262,11 +264,12 @@
       "actions": [
         {
           "type": {
-            "value": "TextObject::Text::SetOutlineEnabled"
+            "value": "TextObject::Text::SetFontSize"
           },
           "parameters": [
-            "menu_return_txt",
-            ""
+            "return_to_start_obj",
+            "=",
+            "85"
           ]
         }
       ]
@@ -280,7 +283,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "menu_return_txt",
+            "return_to_start_obj",
             "",
             "",
             ""
@@ -290,11 +293,12 @@
       "actions": [
         {
           "type": {
-            "value": "TextObject::Text::SetOutlineEnabled"
+            "value": "TextObject::Text::SetFontSize"
           },
           "parameters": [
-            "menu_return_txt",
-            "no"
+            "return_to_start_obj",
+            "=",
+            "70"
           ]
         }
       ]
@@ -307,7 +311,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "menu_return_txt",
+            "return_to_start_obj",
             "",
             "",
             ""
@@ -326,25 +330,20 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "click.mp3",
-            "",
-            "40",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PopScene"
-          },
-          "parameters": [
+            "\"home_screen\"",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

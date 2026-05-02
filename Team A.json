@@ -296,34 +296,18 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite.png",
+        "file": "assets/waves_obj.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite",
+        "name": "waves_obj",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite2.png",
+        "file": "assets/bridge_obj.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite4.png\"}",
-        "name": "NewTiledSprite4",
+        "name": "bridge_obj",
         "smoothed": true,
         "userAdded": false
       },
@@ -352,26 +336,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite5.png",
+        "file": "assets/barrier_obj.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite7",
+        "name": "barrier_obj",
         "smoothed": true,
         "userAdded": false
       },
@@ -392,10 +360,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite8.png",
+        "file": "assets/hidden_stone_wall_obj.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite8.png\"}",
-        "name": "NewTiledSprite8",
+        "name": "hidden_stone_wall_obj",
         "smoothed": true,
         "userAdded": false
       },
@@ -408,18 +376,18 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite8.png",
+        "file": "assets/enemy_placeholder_obj.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
+        "name": "enemy_placeholder_obj",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite9.png",
+        "file": "assets/trigger_obj_2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite9.png\"}",
-        "name": "NewTiledSprite9",
+        "name": "trigger_obj_2",
         "smoothed": true,
         "userAdded": false
       },
@@ -432,26 +400,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/New image.png",
+        "file": "assets/hidden_stone_wall_obj.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite10",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite11",
+        "name": "stone_wall_added_obj",
         "smoothed": true,
         "userAdded": false
       },
@@ -552,14 +504,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/bottonl_twn.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -600,14 +544,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/boss_obj.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -624,34 +560,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite12",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite13",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/lvl3_wall_obj.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/lvl3_wall_obj.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite14",
         "smoothed": true,
         "userAdded": false
       },
@@ -676,14 +588,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "lvl3_hidden_path_obj",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite15",
         "smoothed": true,
         "userAdded": false
       },
@@ -1062,6 +966,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/background_obj.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "background_obj",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/melee_hitbox_obj2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "melee_hitbox_obj2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1108,6 +1028,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game_info"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/win_screen"
     }
   ],
   "externalEvents": [

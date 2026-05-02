@@ -206,8 +206,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 480.5,
-                      "y": 744
+                      "x": 478,
+                      "y": 877
                     }
                   ],
                   "originPoint": {
@@ -224,28 +224,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 266,
-                        "y": 438
+                        "x": 355.5,
+                        "y": 331
                       },
                       {
-                        "x": 364,
-                        "y": 334
+                        "x": 597,
+                        "y": 331
                       },
                       {
-                        "x": 509,
-                        "y": 294
+                        "x": 597,
+                        "y": 893
                       },
                       {
-                        "x": 631.5,
-                        "y": 355
-                      },
-                      {
-                        "x": 582.5,
-                        "y": 880.5
-                      },
-                      {
-                        "x": 366.5,
-                        "y": 881.5
+                        "x": 345,
+                        "y": 897
                       }
                     ]
                   ]
@@ -256,8 +248,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 480.5,
-                      "y": 744
+                      "x": 478,
+                      "y": 877
                     }
                   ],
                   "originPoint": {
@@ -274,28 +266,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 266,
-                        "y": 438
+                        "x": 355.5,
+                        "y": 331
                       },
                       {
-                        "x": 364,
-                        "y": 334
+                        "x": 597,
+                        "y": 331
                       },
                       {
-                        "x": 509,
-                        "y": 294
+                        "x": 597,
+                        "y": 893
                       },
                       {
-                        "x": 631.5,
-                        "y": 355
-                      },
-                      {
-                        "x": 582.5,
-                        "y": 880.5
-                      },
-                      {
-                        "x": 366.5,
-                        "y": 881.5
+                        "x": 345,
+                        "y": 897
                       }
                     ]
                   ]
@@ -306,8 +290,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 480.5,
-                      "y": 744
+                      "x": 478,
+                      "y": 877
                     }
                   ],
                   "originPoint": {
@@ -324,28 +308,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 266,
-                        "y": 438
+                        "x": 355.5,
+                        "y": 331
                       },
                       {
-                        "x": 364,
-                        "y": 334
+                        "x": 597,
+                        "y": 331
                       },
                       {
-                        "x": 509,
-                        "y": 294
+                        "x": 597,
+                        "y": 893
                       },
                       {
-                        "x": 631.5,
-                        "y": 355
-                      },
-                      {
-                        "x": 582.5,
-                        "y": 880.5
-                      },
-                      {
-                        "x": 366.5,
-                        "y": 881.5
+                        "x": 345,
+                        "y": 897
                       }
                     ]
                   ]
@@ -356,8 +332,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 480.5,
-                      "y": 744
+                      "x": 478,
+                      "y": 877
                     }
                   ],
                   "originPoint": {
@@ -374,28 +350,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 266,
-                        "y": 438
+                        "x": 355.5,
+                        "y": 331
                       },
                       {
-                        "x": 364,
-                        "y": 334
+                        "x": 597,
+                        "y": 331
                       },
                       {
-                        "x": 509,
-                        "y": 294
+                        "x": 597,
+                        "y": 893
                       },
                       {
-                        "x": 631.5,
-                        "y": 355
-                      },
-                      {
-                        "x": 582.5,
-                        "y": 880.5
-                      },
-                      {
-                        "x": 366.5,
-                        "y": 881.5
+                        "x": 345,
+                        "y": 897
                       }
                     ]
                   ]
@@ -406,8 +374,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 480.5,
-                      "y": 744
+                      "x": 478,
+                      "y": 877
                     }
                   ],
                   "originPoint": {
@@ -424,28 +392,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 266,
-                        "y": 438
+                        "x": 355.5,
+                        "y": 331
                       },
                       {
-                        "x": 364,
-                        "y": 334
+                        "x": 597,
+                        "y": 331
                       },
                       {
-                        "x": 509,
-                        "y": 294
+                        "x": 597,
+                        "y": 893
                       },
                       {
-                        "x": 631.5,
-                        "y": 355
-                      },
-                      {
-                        "x": 582.5,
-                        "y": 880.5
-                      },
-                      {
-                        "x": 366.5,
-                        "y": 881.5
+                        "x": 345,
+                        "y": 897
                       }
                     ]
                   ]
@@ -456,8 +416,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 480.5,
-                      "y": 744
+                      "x": 478,
+                      "y": 877
                     }
                   ],
                   "originPoint": {
@@ -474,28 +434,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 266,
-                        "y": 438
+                        "x": 355.5,
+                        "y": 331
                       },
                       {
-                        "x": 364,
-                        "y": 334
+                        "x": 597,
+                        "y": 331
                       },
                       {
-                        "x": 509,
-                        "y": 294
+                        "x": 597,
+                        "y": 893
                       },
                       {
-                        "x": 631.5,
-                        "y": 355
-                      },
-                      {
-                        "x": 582.5,
-                        "y": 880.5
-                      },
-                      {
-                        "x": 366.5,
-                        "y": 881.5
+                        "x": 345,
+                        "y": 897
                       }
                     ]
                   ]
@@ -506,8 +458,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 480.5,
-                      "y": 744
+                      "x": 478,
+                      "y": 877
                     }
                   ],
                   "originPoint": {
@@ -524,28 +476,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 266,
-                        "y": 438
+                        "x": 355.5,
+                        "y": 331
                       },
                       {
-                        "x": 364,
-                        "y": 334
+                        "x": 597,
+                        "y": 331
                       },
                       {
-                        "x": 509,
-                        "y": 294
+                        "x": 597,
+                        "y": 893
                       },
                       {
-                        "x": 631.5,
-                        "y": 355
-                      },
-                      {
-                        "x": 582.5,
-                        "y": 880.5
-                      },
-                      {
-                        "x": 366.5,
-                        "y": 881.5
+                        "x": 345,
+                        "y": 897
                       }
                     ]
                   ]
@@ -568,8 +512,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 476.5,
-                      "y": 481
+                      "x": 477,
+                      "y": 362
                     }
                   ],
                   "originPoint": {
@@ -610,8 +554,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 476.5,
-                      "y": 481
+                      "x": 477,
+                      "y": 362
                     }
                   ],
                   "originPoint": {
@@ -652,8 +596,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 476.5,
-                      "y": 481
+                      "x": 477,
+                      "y": 362
                     }
                   ],
                   "originPoint": {
@@ -694,8 +638,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 476.5,
-                      "y": 481
+                      "x": 477,
+                      "y": 362
                     }
                   ],
                   "originPoint": {
@@ -736,8 +680,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 476.5,
-                      "y": 481
+                      "x": 477,
+                      "y": 362
                     }
                   ],
                   "originPoint": {
@@ -778,8 +722,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 476.5,
-                      "y": 481
+                      "x": 477,
+                      "y": 362
                     }
                   ],
                   "originPoint": {
@@ -820,8 +764,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 476.5,
-                      "y": 481
+                      "x": 477,
+                      "y": 362
                     }
                   ],
                   "originPoint": {
@@ -874,8 +818,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 637.5,
-                      "y": 577.5
+                      "x": 678.5,
+                      "y": 588
                     }
                   ],
                   "originPoint": {
@@ -932,8 +876,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 637.5,
-                      "y": 577.5
+                      "x": 678.5,
+                      "y": 588
                     }
                   ],
                   "originPoint": {
@@ -990,8 +934,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 637.5,
-                      "y": 577.5
+                      "x": 678.5,
+                      "y": 588
                     }
                   ],
                   "originPoint": {
@@ -1048,8 +992,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 637.5,
-                      "y": 577.5
+                      "x": 678.5,
+                      "y": 588
                     }
                   ],
                   "originPoint": {
@@ -1106,8 +1050,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 637.5,
-                      "y": 577.5
+                      "x": 678.5,
+                      "y": 588
                     }
                   ],
                   "originPoint": {
@@ -1164,8 +1108,8 @@
                   "points": [
                     {
                       "name": "hit_point",
-                      "x": 637.5,
-                      "y": 577.5
+                      "x": 678.5,
+                      "y": 588
                     }
                   ],
                   "originPoint": {
@@ -1804,7 +1748,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "melee_hitbox_obj",
+                  "image": "melee_hitbox_obj2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1824,16 +1768,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 80,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 80,
+                        "y": 80
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 80
                       }
                     ]
                   ]
@@ -2121,7 +2065,7 @@
       "height": 32,
       "name": "Water_Diss_Obj",
       "persistentUuid": "12d3d276-8d11-4b46-b8d8-59e22be5bc2f",
-      "texture": "NewTiledSprite",
+      "texture": "waves_obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [
@@ -2150,7 +2094,8 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Bridge_OBJ",
-      "texture": "NewTiledSprite3",
+      "persistentUuid": "5186b966-0034-4c84-adba-3274af84d0eb",
+      "texture": "bridge_obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2162,7 +2107,7 @@
       "height": 32,
       "name": "Water_Wall",
       "persistentUuid": "6cbc2ba4-ca08-40d4-82b5-6fdc4dda7999",
-      "texture": "NewTiledSprite",
+      "texture": "waves_obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2174,7 +2119,7 @@
       "height": 32,
       "name": "obj_barrier",
       "persistentUuid": "398d0261-ad70-40f3-b5c4-38e944e37d28",
-      "texture": "NewTiledSprite7",
+      "texture": "barrier_obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2259,7 +2204,7 @@
       "height": 32,
       "name": "Stone_Wall_Lvl2Obj",
       "persistentUuid": "57c1d7a1-606c-4886-a043-9e26a55e2e3b",
-      "texture": "NewTiledSprite8",
+      "texture": "hidden_stone_wall_obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2287,7 +2232,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "enemy_placeholder_obj",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2343,7 +2288,7 @@
       "height": 32,
       "name": "Trigger_Obj_2",
       "persistentUuid": "de988dc8-bec3-44c1-9967-bdeece397a22",
-      "texture": "NewTiledSprite9",
+      "texture": "trigger_obj_2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2354,7 +2299,8 @@
       "assetStoreId": "",
       "height": 1000,
       "name": "StoneWallAdded_Obj",
-      "texture": "NewTiledSprite11",
+      "persistentUuid": "1090859d-0450-43e6-8158-6b13c9f55454",
+      "texture": "stone_wall_added_obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1590,
       "variables": [],
@@ -2366,7 +2312,7 @@
       "height": 32,
       "name": "Stone_Wall_Disapear",
       "persistentUuid": "7e912e21-20cc-4e4f-be0c-474d756b5d11",
-      "texture": "NewTiledSprite8",
+      "texture": "hidden_stone_wall_obj",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -4320,54 +4266,40 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "folderName": "Level 3 stuff",
+        "folderName": "UI",
         "children": [
           {
-            "objectName": "lvl3_void_obj"
+            "objectName": "health_back_obj"
           },
           {
-            "objectName": "dungeon_door_obj"
+            "objectName": "health_bar"
           },
           {
-            "objectName": "lvl3_wall_obj"
+            "objectName": "mana_back_obj"
           },
           {
-            "objectName": "lvl3_hidden_path_obj"
+            "objectName": "mana_bar_obj"
           },
           {
-            "objectName": "lvl3_floor_obj"
+            "objectName": "exit_game_txt"
           },
           {
-            "objectName": "lvl3_room_cover_obj"
+            "objectName": "ui_identifier_obj"
           },
           {
-            "objectName": "boss_fight_trigger_obj"
-          }
-        ]
-      },
-      {
-        "folderName": "Boss Fight",
-        "children": [
-          {
-            "objectName": "bottoml_twn"
+            "objectName": "ui_background_obj"
           },
           {
-            "objectName": "bottomr_twn"
+            "objectName": "ui_outline_obj"
           },
           {
-            "objectName": "topl_twn"
+            "objectName": "in_game_info_txt"
           },
           {
-            "objectName": "topr_twn"
+            "objectName": "boss_healthbar_obj"
           },
           {
-            "objectName": "center_twn"
-          },
-          {
-            "objectName": "boss_obj"
-          },
-          {
-            "objectName": "boss_bullet_obj"
+            "objectName": "boss_name_txt"
           }
         ]
       },
@@ -4391,38 +4323,6 @@
           },
           {
             "objectName": "melee_hitbox_obj"
-          }
-        ]
-      },
-      {
-        "folderName": "Level 2 stuff",
-        "children": [
-          {
-            "objectName": "Obj_Lantern_Leach_Enemy"
-          },
-          {
-            "objectName": "Temp_End_Text"
-          },
-          {
-            "objectName": "Trigger_Obj_1"
-          },
-          {
-            "objectName": "Trigger_Obj_2"
-          },
-          {
-            "objectName": "StoneWallAdded_Obj"
-          },
-          {
-            "objectName": "Stone_Wall_Disapear"
-          },
-          {
-            "objectName": "Enemy_Placeholder"
-          },
-          {
-            "objectName": "Stone_Wall_Lvl2Obj"
-          },
-          {
-            "objectName": "Path_Lvl2_Obj"
           }
         ]
       },
@@ -4459,40 +4359,92 @@
         ]
       },
       {
-        "folderName": "UI",
+        "folderName": "Level 2 stuff",
         "children": [
           {
-            "objectName": "health_back_obj"
+            "objectName": "Obj_Lantern_Leach_Enemy"
           },
           {
-            "objectName": "health_bar"
+            "objectName": "Temp_End_Text"
           },
           {
-            "objectName": "mana_back_obj"
+            "objectName": "Trigger_Obj_1"
           },
           {
-            "objectName": "mana_bar_obj"
+            "objectName": "Trigger_Obj_2"
           },
           {
-            "objectName": "exit_game_txt"
+            "objectName": "StoneWallAdded_Obj"
           },
           {
-            "objectName": "ui_identifier_obj"
+            "objectName": "Stone_Wall_Disapear"
           },
           {
-            "objectName": "ui_background_obj"
+            "objectName": "Enemy_Placeholder"
           },
           {
-            "objectName": "ui_outline_obj"
+            "objectName": "Stone_Wall_Lvl2Obj"
           },
           {
-            "objectName": "in_game_info_txt"
+            "objectName": "Path_Lvl2_Obj"
+          }
+        ]
+      },
+      {
+        "folderName": "Level 3 stuff",
+        "children": [
+          {
+            "objectName": "lvl3_void_obj"
           },
           {
-            "objectName": "boss_healthbar_obj"
+            "objectName": "dungeon_door_obj"
           },
           {
-            "objectName": "boss_name_txt"
+            "objectName": "lvl3_wall_obj"
+          },
+          {
+            "objectName": "lvl3_hidden_path_obj"
+          },
+          {
+            "objectName": "lvl3_floor_obj"
+          },
+          {
+            "objectName": "lvl3_room_cover_obj"
+          },
+          {
+            "objectName": "boss_fight_trigger_obj"
+          }
+        ]
+      },
+      {
+        "folderName": "Boss Fight",
+        "children": [
+          {
+            "objectName": "portal_obj"
+          },
+          {
+            "objectName": "fight_start_trigger_obj"
+          },
+          {
+            "objectName": "bottoml_twn"
+          },
+          {
+            "objectName": "bottomr_twn"
+          },
+          {
+            "objectName": "topl_twn"
+          },
+          {
+            "objectName": "topr_twn"
+          },
+          {
+            "objectName": "center_twn"
+          },
+          {
+            "objectName": "boss_obj"
+          },
+          {
+            "objectName": "boss_bullet_obj"
           }
         ]
       },
@@ -4539,12 +4491,6 @@
             "objectName": "Text_End4_Lvl2"
           }
         ]
-      },
-      {
-        "objectName": "portal_obj"
-      },
-      {
-        "objectName": "fight_start_trigger_obj"
       }
     ]
   },

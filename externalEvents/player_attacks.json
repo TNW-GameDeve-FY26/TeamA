@@ -239,7 +239,7 @@
                 "boss_healthbar_obj",
                 "boss_health_amount",
                 "-",
-                "50"
+                "175"
               ]
             }
           ]
@@ -413,15 +413,38 @@
                 "boss_healthbar_obj",
                 "boss_health_amount",
                 "-",
-                "25"
+                "100"
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "melee_hitbox_obj",
+                "bullet_obj",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bullet_obj",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []

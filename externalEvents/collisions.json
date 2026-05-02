@@ -596,9 +596,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
+            "",
+            "\"win_screen\"",
             ""
           ]
         }

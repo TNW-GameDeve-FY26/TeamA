@@ -661,7 +661,7 @@
       {
         "file": "assets/lvl3_wall_obj.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/lvl3_wall_obj.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets/lvl3_wall_obj.png",
         "smoothed": true,
         "userAdded": false

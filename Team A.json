@@ -952,6 +952,46 @@
         "name": "side_walk0020.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "low_health.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "low_health.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "low_health2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "low_health2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "river_sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "river_sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "puzzle_sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "puzzle_sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1071,7 +1111,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/music"
+      "referenceTo": "/externalEvents/music--sound"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

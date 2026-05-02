@@ -44,16 +44,6 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "level",
-            ">=",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "BooleanVariable"
           },
           "parameters": [

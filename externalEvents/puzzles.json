@@ -389,6 +389,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "puzzle_sound.mp3",
+            "",
+            "55",
+            ""
+          ]
         }
       ]
     }

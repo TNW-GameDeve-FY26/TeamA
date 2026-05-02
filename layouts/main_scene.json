@@ -2115,10 +2115,17 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Water_Diss_Obj",
+      "persistentUuid": "12d3d276-8d11-4b46-b8d8-59e22be5bc2f",
       "texture": "NewTiledSprite",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
-      "variables": [],
+      "variables": [
+        {
+          "name": "sound",
+          "type": "number",
+          "value": 100
+        }
+      ],
       "effects": [],
       "behaviors": []
     },
@@ -4657,7 +4664,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Music"
+          "target": "Music & sound"
         },
         {
           "type": "BuiltinCommonInstructions::Link",

@@ -324,6 +324,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "click.mp3",
+            "",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "PopScene"
           },
           "parameters": [

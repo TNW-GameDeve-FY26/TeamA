@@ -96,6 +96,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "click.mp3",
+            "",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -209,6 +221,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "click.mp3",
+            "",
+            "40",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "PushScene"
           },
           "parameters": [
@@ -310,6 +334,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "click.mp3",
+            "",
+            "40",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Quit"

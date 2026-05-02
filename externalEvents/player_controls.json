@@ -90,6 +90,17 @@
             "player_obj",
             "Animation"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "moving",
+            "True",
+            ""
+          ]
         }
       ],
       "events": [
@@ -226,6 +237,17 @@
             "player_obj",
             "Animation"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "moving",
+            "True",
+            ""
+          ]
         }
       ],
       "events": [
@@ -351,6 +373,17 @@
           "parameters": [
             "player_obj",
             "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "moving",
+            "True",
+            ""
           ]
         }
       ],
@@ -478,6 +511,17 @@
             "player_obj",
             "Animation"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "moving",
+            "True",
+            ""
+          ]
         }
       ],
       "events": [
@@ -539,6 +583,70 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "moving",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "walking2.mp3",
+            "6",
+            "yes",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "moving",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseSoundChannel"
+          },
+          "parameters": [
+            "",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -571,6 +679,42 @@
           "parameters": [
             "player_obj",
             "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "player_obj",
+            "moving",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "AnyKeyPressed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseSoundChannel"
+          },
+          "parameters": [
+            "",
+            "6"
           ]
         }
       ]

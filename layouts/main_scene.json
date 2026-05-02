@@ -129,6 +129,11 @@
           "name": "melee_attack",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "moving",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],

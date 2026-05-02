@@ -992,6 +992,76 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "spell_shoot.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spell_shoot.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "spell_shoot2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spell_shoot2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "walking.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "walking.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "walking2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "walking2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "click.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "click.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "boss_yell.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "boss_yell.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss Fight.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss Fight.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },

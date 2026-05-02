@@ -7,10 +7,12 @@
       "conditions": [
         {
           "type": {
-            "value": "SceneJustBegins"
+            "value": "NumberVariable"
           },
           "parameters": [
-            ""
+            "level",
+            "=",
+            "2"
           ]
         }
       ],

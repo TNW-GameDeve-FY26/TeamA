@@ -50,11 +50,34 @@
       "value": false
     },
     {
+<<<<<<< Updated upstream
       "name": "Is_Attacking",
       "type": "string",
       "value": "True"
     },
     {
+=======
+<<<<<<< Updated upstream
+      "name": "showing_info_txt",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "boss_fight_started",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Is_Attacking_Leech",
+      "type": "boolean",
+      "value": false
+=======
+      "name": "Is_Attacking",
+      "type": "string",
+      "value": "True"
+    },
+    {
+>>>>>>> Stashed changes
       "name": "Is_Attacking_Leech",
       "type": "string",
       "value": "True"
@@ -63,6 +86,10 @@
       "name": "HasHit_Leech",
       "type": "string",
       "value": "True"
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     }
   ],
   "instances": [],
@@ -782,30 +809,35 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.01,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+<<<<<<< Updated upstream
                   "image": "melee_hitbox_obj",
+=======
+                  "image": "attack_swing0000.png",
+>>>>>>> Stashed changes
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 70.5,
+                    "y": 672
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 69,
+                    "y": 671
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 179,
+                        "y": 668
                       },
                       {
+<<<<<<< Updated upstream
                         "x": 64,
                         "y": 0
                       },
@@ -816,6 +848,162 @@
                       {
                         "x": 0,
                         "y": 64
+=======
+                        "x": 428,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 987
+                      },
+                      {
+                        "x": 179,
+                        "y": 987
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "attack_swing0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 70.5,
+                    "y": 672
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 69,
+                    "y": 671
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 179,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 987
+                      },
+                      {
+                        "x": 179,
+                        "y": 987
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "attack_swing0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 70.5,
+                    "y": 672
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 69,
+                    "y": 671
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 179,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 987
+                      },
+                      {
+                        "x": 179,
+                        "y": 987
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "attack_swing0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 70.5,
+                    "y": 672
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 69,
+                    "y": 671
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 179,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 987
+                      },
+                      {
+                        "x": 179,
+                        "y": 987
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "attack_swing0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 70.5,
+                    "y": 672
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 69,
+                    "y": 671
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 179,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 668
+                      },
+                      {
+                        "x": 428,
+                        "y": 987
+                      },
+                      {
+                        "x": 179,
+                        "y": 987
+>>>>>>> Stashed changes
                       }
                     ]
                   ]
@@ -1747,16 +1935,27 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "name": "Obj_Melee_Man___Enemy",
       "persistentUuid": "60da5389-1cb3-45f5-936c-567a2acb1ed1",
 =======
       "name": "Obj_Lantern_Leach_Enemy",
 >>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
+=======
+<<<<<<< Updated upstream
+      "name": "Obj_Lantern_Leach_Enemy",
+      "persistentUuid": "2927cb0e-afa9-4216-9bcc-357f7db57cfa",
+=======
+      "name": "Obj_Melee_Man___Enemy",
+      "persistentUuid": "60da5389-1cb3-45f5-936c-567a2acb1ed1",
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "behaviors": [
         {
@@ -1780,6 +1979,9 @@
         {
           "name": "Obj_Melee_Man___Enemy",
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
       "behaviors": [],
       "animations": [
         {
@@ -2486,15 +2688,41 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+=======
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+>>>>>>> Stashed changes
         }
       ],
       "animations": [
         {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
           "name": "NewSprite",
 =======
           "name": "boss_obj",
 >>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
+=======
+<<<<<<< Updated upstream
+          "name": "boss_obj",
+=======
+          "name": "Obj_Melee_Man___Enemy",
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2504,6 +2732,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
                   "image": "NewSprite5",
                   "points": [],
@@ -2512,6 +2741,9 @@
                     "x": 0,
                     "y": 0
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
                   "image": "boss_obj",
                   "points": [],
                   "originPoint": {
@@ -2606,15 +2838,855 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+<<<<<<< Updated upstream
 >>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
+=======
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lvl3_room_cover_obj",
+      "persistentUuid": "8791a8ed-717e-466c-b1f0-5df86dcdf5a6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "lvl3_room_cover_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lvl3_room_cover_obj",
+=======
+                  "image": "Obj_Melee_Man___Enemy2",
+>>>>>>> Stashed changes
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+<<<<<<< Updated upstream
+      "name": "lvl3_hidden_path_obj",
+      "persistentUuid": "5acba979-80f9-455f-8b55-171fb634d18c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "lvl3_hidden_path_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lvl3_hidden_path_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "dungeon_door_obj",
+      "persistentUuid": "9704de99-f0d7-455d-aee6-6b5afb87bc0d",
+      "texture": "dungeon_door_obj",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ui_identifier_obj",
+      "persistentUuid": "dcc7c657-ec6c-45d2-8a2d-022610d95d3d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/game bluei.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 806,
+                        "y": 160
+                      },
+                      {
+                        "x": 2482,
+                        "y": 160
+                      },
+                      {
+                        "x": 2482,
+                        "y": 4463
+                      },
+                      {
+                        "x": 806,
+                        "y": 4463
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ui_background_obj",
+      "persistentUuid": "92748640-004f-41e2-8a8c-598ebb0ed1df",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/game ui blackground.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1260,
+                        "y": 214
+                      },
+                      {
+                        "x": 7720,
+                        "y": 214
+                      },
+                      {
+                        "x": 7720,
+                        "y": 2424
+                      },
+                      {
+                        "x": 1260,
+                        "y": 2424
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ui_outline_obj",
+      "persistentUuid": "f33fc108-6cf5-463e-87ff-7e5f1345b6f6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/game ui outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 808,
+                        "y": 166
+                      },
+                      {
+                        "x": 7739,
+                        "y": 166
+                      },
+                      {
+                        "x": 7739,
+                        "y": 4434
+                      },
+                      {
+                        "x": 808,
+                        "y": 4434
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "boss_fight_trigger_obj",
+      "persistentUuid": "ec4144cc-819a-4146-8aee-9030f7832db9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "boss_fight_trigger_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "boss_fight_trigger_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "in_game_info_txt",
+      "persistentUuid": "05b75f3d-e3ff-463b-bc41-bb716c5636b5",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "boss_healthbar_obj",
+      "persistentUuid": "ac93244c-aec1-4fc9-b779-6e43b61d02d3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "boss_health_max",
+          "type": "number",
+          "value": 800
+        },
+        {
+          "name": "boss_health_amount",
+          "type": "number",
+          "value": 800
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "boss_healthbar_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "boss_healthbar_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "boss_name_txt",
+      "persistentUuid": "4a50723d-1f8f-4582-b571-6b188e2147cb",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "THE LOST ONE",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 6,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "THE LOST ONE",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "portal_obj",
+      "persistentUuid": "7c599c93-08b5-4459-8cc0-c36a7595245d",
+=======
+      "name": "Obj_Lantern_Leech_Hitbox",
+      "persistentUuid": "e4e90177-c2ad-4e89-ab8e-b6b5e1f1d06d",
+>>>>>>> Stashed changes
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+<<<<<<< Updated upstream
+                  "image": "portal_obj",
+=======
+                  "image": "NewSprite4",
+>>>>>>> Stashed changes
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+<<<<<<< Updated upstream
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 250,
+                        "y": 1
+                      },
+                      {
+                        "x": 250,
+                        "y": 250
+                      },
+                      {
+                        "x": 1,
+                        "y": 250
+=======
+                        "x": 18,
+                        "y": 17
+                      },
+                      {
+                        "x": 46,
+                        "y": 17
+                      },
+                      {
+                        "x": 46,
+                        "y": 46
+                      },
+                      {
+                        "x": 18,
+                        "y": 46
+>>>>>>> Stashed changes
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+<<<<<<< Updated upstream
+      "name": "boss_bullet_obj",
+      "persistentUuid": "a485318e-b980-4c90-9a37-6a9e15585a19",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+=======
+      "name": "boss_obj",
+      "persistentUuid": "a3c516e5-455e-4dee-93d5-25fbeb944521",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "where_to_move",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+>>>>>>> Stashed changes
+        }
+      ],
+      "animations": [
+        {
+<<<<<<< Updated upstream
+          "name": "boss_bullet_obj",
+=======
+          "name": "NewSprite",
+>>>>>>> Stashed changes
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+<<<<<<< Updated upstream
+                  "image": "boss_bullet_obj",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 7.5,
+                    "y": 7.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 15
+                      },
+                      {
+                        "x": 0,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fight_start_trigger_obj",
+      "persistentUuid": "e027e949-d3d0-4097-97b1-e31f0bf21b31",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "fight_start_trigger_obj",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fight_start_trigger_obj",
+=======
+                  "image": "NewSprite5",
+>>>>>>> Stashed changes
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+<<<<<<< Updated upstream
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+=======
+                        "x": 18,
+                        "y": 5
+                      },
+                      {
+                        "x": 50,
+                        "y": 5
+                      },
+                      {
+                        "x": 50,
+                        "y": 51
+                      },
+                      {
+                        "x": 18,
+                        "y": 51
+>>>>>>> Stashed changes
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         "folderName": "Enemies",
+=======
+<<<<<<< Updated upstream
+        "folderName": "UI",
+>>>>>>> Stashed changes
         "children": [
           {
             "objectName": "Obj_Melee_Man___Enemy"
@@ -2652,7 +3724,32 @@
 >>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
           },
           {
+<<<<<<< Updated upstream
             "objectName": "boss_obj"
+=======
+            "objectName": "ui_outline_obj"
+          },
+          {
+            "objectName": "in_game_info_txt"
+          },
+          {
+            "objectName": "boss_healthbar_obj"
+          },
+          {
+            "objectName": "boss_name_txt"
+=======
+        "folderName": "Enemies",
+        "children": [
+          {
+            "objectName": "Obj_Melee_Man___Enemy"
+          },
+          {
+            "objectName": "Obj_Lantern_Leech_Hitbox"
+          },
+          {
+            "objectName": "boss_obj"
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
           }
         ]
       },

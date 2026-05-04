@@ -536,12 +536,16 @@
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         "file": "assets/Obj_Melee_Man___Enemy.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Obj_Melee_Man___Enemy",
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
         "file": "concept3.png",
         "kind": "image",
         "metadata": "",
@@ -580,26 +584,47 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "bottonl_twn",
+=======
+        "file": "assets/Obj_Melee_Man___Enemy.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Obj_Melee_Man___Enemy",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
         "file": "assets/bottomr_twn.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "bottomr_twn",
+=======
+        "file": "assets/Obj_Melee_Man___Enemy2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Obj_Melee_Man___Enemy2",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
         "file": "assets/topl_twn.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "topl_twn",
+=======
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
         "file": "assets/center_twn.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/center_twn.png\"}",
@@ -673,7 +698,56 @@
         "name": "NewTiledSprite14",
         "smoothed": true,
         "userAdded": false
+<<<<<<< Updated upstream
 >>>>>>> 78b3a820966d95d294f44ce9b32c0f7751dfcb4e
+=======
+      },
+      {
+        "file": "attack_swing0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_swing0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "attack_swing0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_swing0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "attack_swing0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_swing0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "attack_swing0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_swing0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "attack_swing0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "attack_swing0008.png",
+=======
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+>>>>>>> Stashed changes
+        "smoothed": true,
+        "userAdded": false
+>>>>>>> Stashed changes
       }
     ]
   },

@@ -2083,7 +2083,7 @@
       "height": 32,
       "name": "Path_Obj",
       "persistentUuid": "5be74ee0-4d88-4066-a7d8-b8fd75509805",
-      "texture": "path_thing.png",
+      "texture": "dirt.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2192,7 +2192,7 @@
       "height": 32,
       "name": "Path_Lvl2_Obj",
       "persistentUuid": "304d7ff0-54db-474c-8111-b13eebe03cda",
-      "texture": "Path_Lvl2_Obj",
+      "texture": "stone-ground.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2722,6 +2722,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Obj_Lantern_Leach_Enemy",
+      "persistentUuid": "0c687a66-333d-44b3-ac39-1b473b4aa97e",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2739,7 +2740,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Lantern_Leach2",
+                  "image": "lantern_enemy.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2755,20 +2756,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
-                        "y": 10
+                        "x": 365,
+                        "y": 342
                       },
                       {
-                        "x": 114,
-                        "y": 10
+                        "x": 640,
+                        "y": 342
                       },
                       {
-                        "x": 114,
-                        "y": 106
+                        "x": 640,
+                        "y": 864
                       },
                       {
-                        "x": 5,
-                        "y": 106
+                        "x": 365,
+                        "y": 864
                       }
                     ]
                   ]
@@ -3416,22 +3417,21 @@
       ],
       "animations": [
         {
-          "name": "boss_obj",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "boss_obj",
+                  "image": "boss_eye.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3442,20 +3442,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 294,
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 706,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 706,
+                        "y": 957
                       },
                       {
-                        "x": 0,
-                        "y": 64
+                        "x": 294,
+                        "y": 957
                       }
                     ]
                   ]
@@ -3495,7 +3495,7 @@
       "height": 32,
       "name": "lvl3_floor_obj",
       "persistentUuid": "a820ab3a-427f-4aee-b915-b155a9423dd1",
-      "texture": "lvl3_floor_obj",
+      "texture": "cobblestone_floor.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -4107,7 +4107,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "boss_bullet_obj",
       "persistentUuid": "a485318e-b980-4c90-9a37-6a9e15585a19",
@@ -4159,7 +4159,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "boss_bullet_obj",
+                  "image": "boss_bullet_obj2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4176,18 +4176,34 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 15,
-                        "y": 0
-                      },
-                      {
-                        "x": 15,
-                        "y": 15
+                        "y": 9.5
                       },
                       {
                         "x": 0,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 5.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 15,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 10,
+                        "y": 15
+                      },
+                      {
+                        "x": 5,
                         "y": 15
                       }
                     ]

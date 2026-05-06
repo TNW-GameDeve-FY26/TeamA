@@ -1,7 +1,7 @@
 {
   "firstLayout": "home_screen",
   "gdVersion": {
-    "build": 266,
+    "build": 268,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -18,6 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "1.0.0",
     "name": "Team A",
     "description": "",
@@ -980,6 +981,54 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "melee_hitbox_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "stone-ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stone-ground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cobblestone_floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cobblestone_floor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "dirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dirt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "boss_eye.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boss_eye.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/boss_bullet_obj2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "boss_bullet_obj2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lantern_enemy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lantern_enemy.png",
         "smoothed": true,
         "userAdded": false
       }
